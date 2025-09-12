@@ -3,7 +3,7 @@
 
 <head>
    <meta content="charset=UTF-8" />
-   <title>XHTML Template Example - Intro ITWS</title>
+   <title>XHTML Nanami Chrysler Resume - Intro ITWS</title>
 
 
 
@@ -73,9 +73,27 @@
 
       }
 
-      .right-align-text { /*fix*/
-                text-align: right;
-            }
+      /*referenced from Lab02-SampleResumeFlexBox2025.html*/
+      /*Flexbox for items with dates on the right */
+      /*helps with spacing*/
+      .item-flex {
+         display: flex;
+         align-items: flex-start; /*aligns items to the top*/
+         margin-bottom: 15px; /*spacing between entries*/
+         justify-content: space-between; /*pushes the left and right content apart from each other*/
+      }
+
+      .item-content {
+         flex: 1; /*allows item to grow and fill up space*/
+      }
+
+      .item-date {
+         min-width: 120px;
+         font-size: 0.98em;
+         margin-left: 18px; /*space between text and date*/
+         text-align: left; /*aligns text to the left*/
+         flex-shrink: 0;
+      }
    </style>
 </head>
 
@@ -88,93 +106,130 @@
       <li><a href= "www.linkedin.com/in/nanami-chrysler">www.linkedin.com/in/nanami-chrysler</a></li>
    </ul>
 
-   <div class="flex-main">
    <h2>EDUCATION</h2>
-      <ul>
-         <strong>Rensselaer Polytechnic Institute - Troy, NY</strong> - 3.68 GPA August 2024 - May 2028(Expected)<br>
-         <strong>Major:</strong> Cognitive Science & Information Technology and Web Science dual<br>
-         <strong>Minor:</strong> Marketing<br>
-         <strong>Achievements:</strong> Dean’s Honor List (Fall 2024, Spring 2025)
-      </ul>
+   <div class="item-flex">
+      <div class="item-content">
+         <strong>Rensselaer Polytechnic Institute - Troy, NY</strong> - 3.68 GPA
+      </div>
+      <div class="item-date">
+         <strong>August 2024 - May 2028 (Expected)</strong>
+      </div>
    </div>
+   <ul>
+      <li><strong>Major:</strong> Cognitive Science & Information Technology and Web Science dual</li>
+      <li><strong>Minor:</strong> Marketing</li>
+      <li><strong>Achievements:</strong> Dean’s Honor List (Fall 2024, Spring 2025)</li>
+   </ul>
 
    <br>
 
-   <div class="flex-main">
    <h2>EXPERIENCE </h2>
-      <ul>
-         <strong>HARP Research Inc. May 2025 - Present</strong><br>
+
+   <div class="item-flex">
+      <div class="item-content">
+         <strong>HARP Research Inc.</strong><br>
          <i>Customer Acquisition and Marketing Intern</i>
-         <li>Studied marketing strategies to promote developing AI software that will revolutionize digital marketing & email campaigns</li>
-         <li>Led creation of a field manual, highlighting product functionality, marketing strategies, and legal/ethical considerations</li>
-         <li>Conducted market & competitor research to inform targeted marketing strategies</li>
-         <li>Designed & presented presentations/detailed documents on ideal customer personas to provide insight on how to gain customer acquisition</li>
-         <li>Drafted & prototyped a landing page for future implementation in the company website, for increased product visibility & customer conversion</li>
-      </ul>
+      </div>
+      <div class="item-date">
+         <strong>May 2025 - Present</strong>
+      </div>
+   </div>
+   <ul>
+      <li>Studied marketing strategies to promote developing AI software that will revolutionize digital marketing & email campaigns</li>
+      <li>Led creation of a field manual, highlighting product functionality, marketing strategies, and legal/ethical considerations</li>
+      <li>Conducted market & competitor research to inform targeted marketing strategies</li>
+      <li>Designed & presented presentations/detailed documents on ideal customer personas to provide insight on how to gain customer acquisition</li>
+      <li>Drafted & prototyped a landing page for future implementation in the company website, for increased product visibility & customer conversion</li>
+   </ul>
 
-      <ul>
-         <strong>Nihon5 WARI Club June 2024 - Present</strong><br>
+   <div class="item-flex">
+      <div class="item-content">
+         <strong>Nihon5 WARI Club</strong><br>
          <i>Mathematics Private Tutor</i>
-         <li>Devise unique teaching/study plan for designed for each student based on their goals, needs, etc.</li>
-         <li>Covered a year’s worth of IM 3 content in 4 months, preparing student to succeed in their next class</li>
-         <li>Reviewed CC3 material, raised student’s performance in the course by 1 letter grade</li>
-         <li>Developed tailored communication strategies to simplify complex concepts, enhancing student engagement & retention</li>
-      </ul>
+      </div>
+      <div class="item-date">
+         <strong>June 2024 - Present</strong>
+      </div>
+   </div>
+   <ul>
+      <li>Devise unique teaching/study plan for designed for each student based on their goals, needs, etc.</li>
+      <li>Covered a year’s worth of IM 3 content in 4 months, preparing student to succeed in their next class</li>
+      <li>Reviewed CC3 material, raised student’s performance in the course by 1 letter grade</li>
+      <li>Developed tailored communication strategies to simplify complex concepts, enhancing student engagement & retention</li>
+   </ul>
 
-      <ul>
-         <strong>Davis Aquamonsters June 2023 - July 2023</strong><br>
+   <div class="item-flex">
+      <div class="item-content">
+         <strong>Davis Aquamonsters</strong><br>
          <i>Swim Coach Intern</i>
-         <li>Shadowed veteran swim instructors to acquire proper coaching skills</li>
-         <li>Coached primarily 4–7-year-olds, helping them acquire higher level swimming abilities</li>
-         <li>Incorporated motivational strategies to improve team performance & confidence.</li>
-      </ul>
+      </div>
+      <div class="item-date">
+         <strong>June 2023 - July 2023</strong>
+      </div>
+   </div>
+   <ul>
+      <li>Shadowed veteran swim instructors to acquire proper coaching skills</li>
+      <li>Coached primarily 4–7-year-olds, helping them acquire higher level swimming abilities</li>
+      <li>Incorporated motivational strategies to improve team performance & confidence.</li>
+   </ul>
    </div>
 
    <br>
 
    <h2>LEADERSHIP & PROFESSIONAL DEVELOPMENT</h2>
-      <ul>
-         <strong>I-PERSIST Mentoring Program August 2025 - Present</strong><br>
+
+   <div class="item-flex">
+      <div class="item-content">
+         <strong>I-PERSIST Mentoring Program</strong><br>
          <i>Calculus 1 Mentor</i>
-         <li>Lead 50-minute session covering Calculus 1 content & student-life opportunities</li>
-         <li>Host weekly office hours to answer any questions students may have outside designated mentoring sessions</li>
-         <li>Goal is to help incoming freshmen succeed both academically & socially, with the focus of adjusting to a college campus</li>
-      </ul>
+      </div>
+      <div class="item-date">
+         <strong>August 2025 - Present</strong>
+      </div>
+   </div>
+   <ul>
+      <li>Lead 50-minute session covering Calculus 1 content & student-life opportunities</li>
+      <li>Host weekly office hours to answer any questions students may have outside designated mentoring sessions</li>
+      <li>Goal is to help incoming freshmen succeed both academically & socially, with the focus of adjusting to a college campus</li>
+   </ul>
 
-      <ul>
-         <strong>Student Athlete Mentor Program August 2025 - Present</strong>
+   <div class="item-flex">
+      <div class="item-content">
+         <strong>Student Athlete Mentor Program</strong>
          <i>Mentor</i>
-         <li>Provide mentorship to 2 incoming freshman student-athletes</li>
-         <li>Advise mentees on study skills, time management, and how to balance academics, athletics, and social life</li>
-         <li>Meet monthly to check-in on student’s well beings</li>
-      </ul>
+      </div>
+      <div class="item-date">
+         <strong>August 2025 - Present</strong>
+      </div>
+   </div>
+   <ul>
+      <li>Provide mentorship to 2 incoming freshman student-athletes</li>
+      <li>Advise mentees on study skills, time management, and how to balance academics, athletics, and social life</li>
+      <li>Meet monthly to check-in on student’s well beings</li>
+   </ul>
 
-      <ul>
-         <strong>Society of Asian Scientists and Engineers August 2024 - Present</strong>
+   <div class="item-flex">
+      <div class="item-content">
+         <strong>Society of Asian Scientists and Engineers</strong>
          <i>External Relations Committee</i>
-         <li>Coordinate with current sponsors & continue to foster current relations with companies such as Boeing, GE Vernova, etc.</li>
-         <li>Contact recruiters to create networking events for general body members, providing opportunities for professional development</li>
-      </ul>
+      </div>
+      <div class="item-date">
+         <strong>August 2024 - Present</strong>
+      </div>
+   </div>
+   <ul>
+      <li>Coordinate with current sponsors & continue to foster current relations with companies such as Boeing, GE Vernova, etc.</li>
+      <li>Contact recruiters to create networking events for general body members, providing opportunities for professional development</li>
+   </ul>
    </div>
 
    <h2>SKILLS</h2>
       <ul>
          <strong>Language:</strong> Fluent in Japanese, intermediate proficiency in Spanish<br>
          <strong>Tools:</strong> Microsoft 365 Suite, Google Suite, Canva, Figma, Latex<br>
-         <strong>Programming Languages:</strong> Python, C++
+         <strong>Programming Languages:</strong> Python, C++<br>
          <strong>Skills:</strong> Data Analysis, Data Visualization, Market Research
       </ul>
-   <div id="nameWrapper">
-      <div id="nm">
-         <p>Fname</p>
-         <p>Lname</p>
-      </div>
-      <div id="ci">
-         contact info
-      </div>
-   </div>
-
-
 </body>
 
 </html>
