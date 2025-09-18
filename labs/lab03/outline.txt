@@ -1,0 +1,22 @@
+- index.html => Home Page; describes what the website is, should have links to other files
+
+	- aboutme.html => About Me Page
+
+	- projects.hmtl => Labs (landing page)
+		- Lab 1 (folder)
+			- Lab1.html => landing page; an explanation of what Lab 1 is about
+			- README.md
+		- Lab 2 (folder)
+			- Lab2.html
+			- resume.html => actual code from lab; in this case it's a resume
+			- README.md
+
+		- Lab 3 - 10 => repeat
+
+	- group_project.html => Group Project
+		-code.html 
+
+	- resources
+		- mySite.css (folder=> css file for the entire website)
+		- image (file for any image used on website)
+			-image.png 
