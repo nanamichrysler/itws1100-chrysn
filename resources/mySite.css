@@ -21,6 +21,11 @@ p {
 
 .name-container h1{
   font-size: 100px;
-  padding: 50px;
+  padding: 0px;
   text-align: center;
+}
+
+img {
+  width: 300px; /* height will adjust proportionally */
+  height: auto;
 }
