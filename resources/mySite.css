@@ -1,9 +1,14 @@
 body {
   background-color: rgb(186, 245, 186);
 }
-h1 {
+
+h1 { 
   color: white;
-  size: 5px;
+  font-size: 25px;
+}
+h2 {
+  color: white;
+  font-size: 60px;
 }
 p {
   color: black;
@@ -20,12 +25,40 @@ p {
 }
 
 .name-container h1{
-  font-size: 100px;
   padding: 0px;
   text-align: center;
 }
 
-img {
-  width: 300px; /* height will adjust proportionally */
+/*Flexbox for items with dates on the right */
+.item-flex { /*referenced from Lab02-SampleResumeFlexBox2025.html*/
+  display: flex;
+  align-items: flex-start; /*aligns items to the top*/
+  margin-bottom: 5px; /*spacing between entries*/
+  gap: 5px;
+}
+
+.item-content {
+  flex: 1;
+}
+
+.item-left {
+  flex: 1;
+}
+
+.item-right {
+  flex: 0 0 auto;   /* width is determined by content or min-width, doesn't grow */
+  min-width: 120px;
+  font-size: 0.98em;
+  margin-left: 15px; /* small gap between columns */
+  text-align: left;
+}
+
+.img-headshot { /*headshot image for aboutme */
+  width: 300px; 
+  height: auto; /* height will adjust proportionally */
+}
+
+.img-labOne {
+  width: 600px;
   height: auto;
 }
