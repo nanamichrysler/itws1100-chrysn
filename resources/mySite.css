@@ -1,5 +1,7 @@
 body {
   background-color: rgb(186, 245, 186);
+  margin: 0;   /*remove default margins*/
+  padding: 0;  /*remove any default padding*/
 }
 
 h1 { /*logo*/
@@ -24,10 +26,7 @@ h3 { /*for homepage*/
 
 p {
   color: black;
-  padding-top: 5px; 
-  padding-bottom: 5px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 10px 40px 5px 10px;
 }
 
 .paragraph-home {
@@ -42,14 +41,16 @@ p {
   padding-left: 10px;
 }
 
-.banner-container {
-  background-color: rgb(186, 245, 186); 
-  color: white; 
-  padding-top: 10px; 
-  padding-bottom: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-  text-align: top right;   
+.paragraph-small texts { /*small texts get borders*/
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 .item-flex { /*referenced from Lab02-SampleResumeFlexBox2025.html*/
@@ -72,6 +73,19 @@ p {
   padding-top: 0px;
 }
 
+.banner-container {
+  color: white; 
+  padding-top: 10px; 
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: top right;   
+}
+
+.banner-color { /*makes top section with buttons grey*/
+  background-color: rgb(255, 255, 255);
+}
+
 .img-headshot { /*headshot image for aboutme */
   width: 400px; 
   height: auto; /* height will adjust proportionally */
@@ -82,10 +96,10 @@ p {
   height: auto;
 }
 
-.img-banner { /*labs landing page RPI image*/
-  width: 1260px;
-  height: 200px;
-  /*object-fit: cover;*/
+.labsImage-container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .img-gmail { /*icon for contact me page*/
