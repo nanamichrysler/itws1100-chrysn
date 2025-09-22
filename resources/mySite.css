@@ -13,6 +13,7 @@ h2 { /*ABOUT ME*/
   color: white;
   font-size: 60px;
   padding-left: 10px;
+
 }
 
 h3 { /*for homepage*/
@@ -51,7 +52,6 @@ p {
   text-align: top right;   
 }
 
-/*Flexbox for items with dates on the right */
 .item-flex { /*referenced from Lab02-SampleResumeFlexBox2025.html*/
   display: flex;
   align-items: flex-start; /*aligns items to the top*/
@@ -59,20 +59,17 @@ p {
   gap: 5px;
 }
 
-.item-content {
-  flex: 1;
-}
-
 .item-left {
   flex: 1;
 }
 
 .item-right {
-  flex: 0 0 auto;   /* width is determined by content or min-width, doesn't grow */
+  flex: auto;   /* width is determined by content or min-width, doesn't grow */
   min-width: 120px;
   font-size: 0.98em;
   margin-left: 15px; /* small gap between columns */
   text-align: left;
+  padding-top: 0px;
 }
 
 .img-headshot { /*headshot image for aboutme */

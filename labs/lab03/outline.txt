@@ -10,12 +10,13 @@
 			- Lab2.html
 			- resume.html => actual code from lab; in this case it's a resume
 			- README.md
-
 		- Lab 3 - 10 => repeat
 
 	- group_project.html => Group Project
 		-code.html 
 
+	-contactme.html => Contact Me 
+		- write down contact info
 	- resources
 		- mySite.css (folder=> css file for the entire website)
 		- image (file for any image used on website)
