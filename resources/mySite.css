@@ -94,3 +94,13 @@ p {
   height: 200px;
   /*object-fit: cover;*/
 }
+
+.img-gmail {
+  width: 20px;
+  height: auto;
+}
+
+.img-linkedIn {
+  width: 50px;
+  height: auto;
+}
