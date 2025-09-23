@@ -95,6 +95,19 @@ p {
   padding-top: 0px;
 }
 
+.banner-container {
+  color: white; 
+  padding-top: 10px; 
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: top right;   
+}
+
+.banner-color { /*makes top section with buttons grey*/
+  background-color: rgb(255, 255, 255);
+}
+
 .img-headshot { /*headshot image for aboutme */
   width: 400px; 
   height: auto; /* height will adjust proportionally */
