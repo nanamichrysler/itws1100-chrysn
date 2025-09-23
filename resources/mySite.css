@@ -24,16 +24,23 @@ h3 { /*for homepage*/
 
 p {
   color: black;
+<<<<<<< Updated upstream
   padding-top: 5px; 
   padding-bottom: 5px;
   padding-right: 10px;
   padding-left: 10px;
+=======
+  padding: 10px 10px 10px 10px;
+>>>>>>> Stashed changes
 }
 
 .paragraph-home {
   color: black;
   font-size: 25px;
-  text-align: center
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 0 20px 0 20px;
 }
 
 .paragraph-aboutMe { /*first paragraph of ABOUT ME*/
@@ -42,6 +49,7 @@ p {
   padding-left: 10px;
 }
 
+<<<<<<< Updated upstream
 .banner-container {
   background-color: rgb(186, 245, 186); 
   color: white; 
@@ -50,6 +58,24 @@ p {
   padding-right: 10px;
   padding-left: 10px;
   text-align: top right;   
+=======
+.paragraph-small { /*small texts get borders*/
+  border: 1px solid white;
+  border-radius: 8px;
+  display: inline-block; /* Makes the element shrink-to-fit its content */
+  width: auto; /* Ensures the width adjusts to the content's length */
+}
+
+.paragraph-small.padded { /*a padded version, used in Labs*/
+  padding: 10px 10px 10px 10px;
+  margin: 20px 10px 20px 10px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+>>>>>>> Stashed changes
 }
 
 .item-flex { /*referenced from Lab02-SampleResumeFlexBox2025.html*/
@@ -77,15 +103,41 @@ p {
   height: auto; /* height will adjust proportionally */
 }
 
-.img-labOne { /*lab 1 screenshots*/
-  width: 600px;
+.img-ubuntu { /*lab 1 screenshots*/
+  width: 315px;
   height: auto;
+  padding: 0 20px 0 20px;
 }
 
+<<<<<<< Updated upstream
 .img-banner { /*labs landing page RPI image*/
   width: 1260px;
   height: 200px;
   /*object-fit: cover;*/
+=======
+.img-helloworld { /*lab 1 screenshots*/
+  width: 500px;
+  height: auto;
+  padding: 20px 0 20px 20px;
+}
+
+.img-github { /*lab 1 screenshots*/
+  width: 500px;
+  height: auto;
+  padding: 0 20px 0 20px;
+}
+
+.img-resume { /*lab 2 screesnhots */
+  width: 1200px;
+  height: auto;
+  padding: 0 20px 0 20px;
+}
+.labsImage-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+>>>>>>> Stashed changes
 }
 
 .img-gmail { /*icon for contact me page*/
