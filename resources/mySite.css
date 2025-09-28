@@ -14,7 +14,6 @@ h2 { /*ABOUT ME*/
   color: white;
   font-size: 60px;
   padding-left: 10px;
-
 }
 
 h3 { /*for homepage*/
@@ -151,4 +150,22 @@ p {
 .img-linkedIn { /*icon for contact me page*/
   width: 20px;
   height: auto;
+}
+
+title {
+  color: rgb(1, 96, 1);
+  font-size: 18px;
+  padding: 10px;
+}
+
+link {
+  color: blue;
+}
+
+lastBuildDate {
+  padding: 10px;
+}
+
+pubDate {
+  padding: 10px;
 }

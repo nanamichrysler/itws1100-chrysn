@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="../../resources/mySite.css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+  <title>Nanami Chrysler's Website</title>
+  <description>
+    A collection of Nananmi Chrysler's work completed  at her time at RPI, including labs from ITWS 1100.
+  </description>
+  <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/index.html</link>
+  <lastBuildDate>Mon, 29 Sep 2025 11:59:00 -0400</lastBuildDate>
+
+  <item>
+    <title>Lab 01</title>
+    <description>
+      A set of screenshots showing that I set up my file server on Microsfot Azure, created a GitHub account,
+      and linked our GitHub, servers, and local machines.
+    </description>
+    <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab01/lab01.html</link>
+    <guid>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab01/lab01.html</guid>
+    <pubDate>Mon, 08 Sep 2025 11:59:00 -0400</pubDate>
+  </item> 
+
+  <item>
+    <title>Lab 02</title>
+    <description>Started working wtih HTML and CSS, created a resume with it.</description>
+    <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab02/lab02.html</link>
+    <guid>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab02/lab02.html</guid>
+    <pubDate>Mon, 15 Sep 2025 11:59:00 -0400</pubDate>
+  </item>
+
+  <item>
+    <title>Lab 03</title>
+      <description>Created bones of this website.</description>
+      <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab03/lab03.html</link>
+      <guid>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab03/lab03.html</guid>
+      <pubDate>Mon, 22 Sep 2025 11:59:00 -0400</pubDate>
+  </item>
+
+  <item>
+    <title>Lab 04</title>
+      <description>Created an RSS feed.</description>
+      <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab04/lab04.html</link>
+      <guid>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab04/lab04.html</guid>
+      <pubDate>Mon, 29 Sep 2025 11:59:00 -0400</pubDate>
+  </item>
+
+</channel>
+</rss>

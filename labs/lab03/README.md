@@ -1,6 +1,5 @@
 # itws1100-chrysn
 
-
 working url: http://chrysnrpi.eastus.cloudapp.azure.com/iit/index.html
 
 Learned to make sure I'm working on the correct branch. 
