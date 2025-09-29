@@ -4,7 +4,7 @@
   <channel>
   <title>Nanami Chrysler's Website</title>
   <description>
-    A collection of Nananmi Chrysler's work completed  at her time at RPI, including labs from ITWS 1100.
+    A collection of Nanami Chrysler's work completed  at her time at RPI, including labs from ITWS 1100.
   </description>
   <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/index.html</link>
   <lastBuildDate>Mon, 29 Sep 2025 11:59:00 -0400</lastBuildDate>
@@ -12,8 +12,8 @@
   <item>
     <title>Lab 01</title>
     <description>
-      A set of screenshots showing that I set up my file server on Microsfot Azure, created a GitHub account,
-      and linked our GitHub, servers, and local machines.
+      In Lab 1, I set up my file server on Microsfot Azure, created a GitHub account, and linked our GitHub, 
+      servers, and local machines. A set of screenshots are included.
     </description>
     <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab01/lab01.html</link>
     <guid>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab01/lab01.html</guid>
@@ -22,7 +22,9 @@
 
   <item>
     <title>Lab 02</title>
-    <description>Started working wtih HTML and CSS, created a resume with it.</description>
+    <description>
+      In Lab 2, I started working wtih HTML and CSS. I created a resume with it, and is included.
+    </description>
     <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab02/lab02.html</link>
     <guid>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab02/lab02.html</guid>
     <pubDate>Mon, 15 Sep 2025 11:59:00 -0400</pubDate>
@@ -30,7 +32,9 @@
 
   <item>
     <title>Lab 03</title>
-      <description>Created bones of this website.</description>
+      <description>
+        In Lab 3, I created the foundation of this website. I used both HTML and external CSS to style my site.
+      </description>
       <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab03/lab03.html</link>
       <guid>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab03/lab03.html</guid>
       <pubDate>Mon, 22 Sep 2025 11:59:00 -0400</pubDate>
@@ -38,7 +42,9 @@
 
   <item>
     <title>Lab 04</title>
-      <description>Created an RSS feed.</description>
+      <description>
+        In Lab 4, I created both RSS and Atom XML files to contain data about all labs completed in ITWS 1100.
+      </description>
       <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab04/lab04.html</link>
       <guid>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab04/lab04.html</guid>
       <pubDate>Mon, 29 Sep 2025 11:59:00 -0400</pubDate>

@@ -18,8 +18,8 @@
 	    <id>urn:uuid:1270de52-da6d-43d0-89f3-2aea5826518a</id>
 		<updated>2025-09-08T23:59:00Z</updated>
 		<summary>
-            A set of screenshots showing that I set up my file server on Microsfot Azure, created a GitHub 
-            account, and linked our GitHub, servers, and local machines.
+            In Lab 1, I set up my file server on Microsfot Azure, created a GitHub account, and linked our 
+			GitHub, servers, and local machines. A set of screenshots are included.
         </summary>
 	</entry>
  
@@ -29,7 +29,7 @@
 	    <id>urn:uuid:5f0112ac-feb4-4cc2-89b7-05abd4295295</id>
 		<updated>2025-09-15T23:59:00Z</updated>
 		<summary>
-            Started working wtih HTML and CSS, created a resume with it.
+      		In Lab 2, I started working wtih HTML and CSS. I created a resume with it, and is included.
         </summary>
 	</entry>
 
@@ -39,7 +39,8 @@
 	    <id>urn:uuid:4272e791-29ef-4bfb-bdc1-f0c9a1950428</id>
 		<updated>2025-09-22T23:59:00Z</updated>
 		<summary>
-            Created bones of this website.
+        	In Lab 3, I created the foundation of this website. I used both HTML and external CSS to style my 
+			site.
         </summary>
 	</entry>
 
@@ -49,7 +50,7 @@
 	    <id>urn:uuid:700f4e3b-23e0-4be5-88b5-2ad0ce5b1455</id>
 		<updated>2025-09-29T23:59:00Z</updated>
 		<summary>
-            Created an RSS feed.
+        	In Lab 4, I created both RSS and Atom XML files to contain data about all labs completed in ITWS 1100.
         </summary>
 	</entry>
 </feed>

@@ -159,7 +159,18 @@ title {
 }
 
 link {
+  display: block;
   color: blue;
+  padding: 10px;
+}
+
+guid {
+  padding: 10px;
+}
+
+item {
+  display: block;
+  padding: 10px;
 }
 
 lastBuildDate {
@@ -167,5 +178,7 @@ lastBuildDate {
 }
 
 pubDate {
+  display: block;
   padding: 10px;
 }
+
