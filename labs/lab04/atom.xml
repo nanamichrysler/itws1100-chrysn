@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+	<title>nanami Chrysler's Website</title>
+	<subtitle>Created during ITWS 1100</subtitle>
+	<link href="http://chrysnrpi.eastus.cloudapp.azure.com/iit/index.html" />
+    <id>urn:uuid:11358fe7-db19-4b58-be1c-bb9521bbbfa3</id>
+	<updated>2025-09-27T23:59:00Z</updated>
+	<author>
+		<name>Nanami Chrysler</name>
+		<email>nanami.jc73@gmail.com</email>
+	</author>
+ 
+	<entry>
+		<title>Lab 01</title>
+		<link href="http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab01/lab01.html" />
+	    <id>urn:uuid:1270de52-da6d-43d0-89f3-2aea5826518a</id>
+		<updated>2025-09-08T23:59:00Z</updated>
+		<summary>
+            In Lab 1, I set up my file server on Microsfot Azure, created a GitHub account, and linked our 
+			GitHub, servers, and local machines. A set of screenshots are included.
+        </summary>
+	</entry>
+ 
+    <entry>
+		<title>Lab 02</title>
+		<link href="http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab02/lab02.html" />
+	    <id>urn:uuid:5f0112ac-feb4-4cc2-89b7-05abd4295295</id>
+		<updated>2025-09-15T23:59:00Z</updated>
+		<summary>
+      		In Lab 2, I started working wtih HTML and CSS. I created a resume with it, and is included.
+        </summary>
+	</entry>
+
+    <entry>
+		<title>Lab 03</title>
+		<link href="http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab03/lab03.html" />
+	    <id>urn:uuid:4272e791-29ef-4bfb-bdc1-f0c9a1950428</id>
+		<updated>2025-09-22T23:59:00Z</updated>
+		<summary>
+        	In Lab 3, I created the foundation of this website. I used both HTML and external CSS to style my 
+			site.
+        </summary>
+	</entry>
+
+    <entry>
+		<title>Lab 04</title>
+		<link href="http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab04/lab04.html" />
+	    <id>urn:uuid:700f4e3b-23e0-4be5-88b5-2ad0ce5b1455</id>
+		<updated>2025-09-29T23:59:00Z</updated>
+		<summary>
+        	In Lab 4, I created both RSS and Atom XML files to contain data about all labs completed in ITWS 1100.
+        </summary>
+	</entry>
+</feed>

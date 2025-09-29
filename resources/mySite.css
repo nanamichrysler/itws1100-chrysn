@@ -14,7 +14,6 @@ h2 { /*ABOUT ME*/
   color: white;
   font-size: 60px;
   padding-left: 10px;
-
 }
 
 h3 { /*for homepage*/
@@ -152,3 +151,34 @@ p {
   width: 20px;
   height: auto;
 }
+
+title {
+  color: rgb(1, 96, 1);
+  font-size: 18px;
+  padding: 10px;
+}
+
+link {
+  display: block;
+  color: blue;
+  padding: 10px;
+}
+
+guid {
+  padding: 10px;
+}
+
+item {
+  display: block;
+  padding: 10px;
+}
+
+lastBuildDate {
+  padding: 10px;
+}
+
+pubDate {
+  display: block;
+  padding: 10px;
+}
+
