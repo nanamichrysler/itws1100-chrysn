@@ -1,6 +1,8 @@
 body {
   background-color: rgb(120, 177, 120);
   margin: 0;
+  position: relative;
+  padding-bottom: 60px; /* space equal to footer height */
 }
 
 h1 { /*logo*/
@@ -131,10 +133,16 @@ p {
 
 /*contact me page*/
 .contact-icons { /*line up in a row*/
+  background-color: white;
   display: flex;
   gap: 20px;
   justify-content: center;
+  padding: 10px;
   margin-top: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .contact-icons a { /*styling for the <a> tag*/
