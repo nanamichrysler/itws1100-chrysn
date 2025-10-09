@@ -1,5 +1,6 @@
 body {
   background-color: rgb(120, 177, 120);
+  font-family: 'Playfair Display', serif;
   margin: 0;
   position: relative;
   padding-bottom: 60px; /* space equal to footer height */
@@ -75,11 +76,17 @@ p {
 
 .banner{
   background-color: white;
-  color: rgb(1, 96, 1);
-  text-align: left; 
-  padding: 0 10px 10px 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* soft shadow */
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  box-shadow: 0 0px 0px 0px rgba(0,0,0,0.1);
   margin-bottom: 40px;   
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px; /* space between buttons */
 }
 
 /*buttons and CTAs*/
@@ -133,7 +140,7 @@ p {
 
 /*contact me page*/
 .contact-icons { /*line up in a row*/
-  background-color: white;
+  background-color: rgb(217, 217, 217);
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -142,7 +149,7 @@ p {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 1244.5px;
 }
 
 .contact-icons a { /*styling for the <a> tag*/
