@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript In-Class - Intro ITWS</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="js-inclass.css" type="text/css" />
+    <script type="text/javascript" src="js-inclass.js"></script>
+  </head>
+  <body>
+    <div id="bodyBlock">
+      <h1>In-Class JavaScript Exercises</h1>
+      <p>This is a document to get you started with JavaScript.</p>
+      
+      <!-- we'll modify the following block with JavaScript -->
+      <div id="output">We'll insert some output here using JavaScript.</div>
+      
+      <p>
+        We'll manually add HTML and JavaScript below here.  
+      </p>
+      
+      <p>
+        <!-- An example script declaration: -->
+        <script type="text/javascript">
+            document.write(firstName + " is " + age);
+            
+            if (age < insuranceCutOffAge) {
+              document.write(firstname + "can be insured <br/>")
+            }
+            else {
+              document.write(firstname + "may not be insured")
+            }
+          // embedded JavaScript will be placed between these script tags.
+        
+        </script>
+
+      </br>
+        <button type="button" onclick="alert(firstName);">
+          Who's there?
+        </button>
+        
+        </br>
+        </br>
+
+        <a href="javascript:alert(cube(5));">
+          You can put JavaScript in an anchor tag too. What is the cube of 5? </br>
+        </a>
+
+        <button type="button" onclick="window.location='http://www.rpi.edu';">
+          Click to see what happens.
+        </button>
+
+        <button type="button" onclick="location='https://www.ibm.com';">
+          Click here to see also. 
+        </button>
+
+        </br>
+        </br>
+
+        <button type="button" onclick="window.document.title = 'New Title';">
+          Click here for a new title.
+        </button>
+
+        <button type="button" onclick="javascript:writeIt();">
+          Click here for new text.
+        </button>
+
+        <button type="button" onclick="javascript:changeFoot();">
+          Change Footer.
+        </button>
+      </p>
+
+      <footer>copyright now</footer>
+      <footer id="subfoot">this is a second footer</footer>
+      
+    </br>
+    </div>
+
+    <form id="addForm" action="a" method="post" onsubmit="return showName(this);">
+      <label for="fname">First name!</label>
+      <input type="text" name="fname" id="fname" onchange="(alert(this.value))" />
+
+      <label for="lname">Last name!</label>
+      <input type="text" name="lname" id="lname" />
+      <input type="submit" value="Submit" />
+    </form>
+
+  </body>
+</html>
+
+
