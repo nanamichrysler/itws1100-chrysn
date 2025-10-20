@@ -3,11 +3,14 @@
    multi-line javascript comments? */
 
 body {
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Playfair Display', serif;
 }
 #bodyBlock {
    width: 700px;
    margin: auto;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: rgb(120, 177, 120);
 }
 #output {
    margin: 1em 0;
@@ -31,4 +34,17 @@ fieldset {
 }
 #save {
    float: right;
+   border-radius: 3px;
+}
+
+button {
+   border-radius: 3px;
+}
+
+input:focus { /*add background color for field sections*/
+   background-color: #fee;
+}
+
+textarea:focus { /*add background color for comments section*/
+   background-color: #fee;
 }
