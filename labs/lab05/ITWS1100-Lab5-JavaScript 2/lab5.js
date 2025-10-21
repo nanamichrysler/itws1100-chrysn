@@ -60,10 +60,9 @@ function validate(formObj) {
       return false;      
    }
    else {
-      return alert("Your form was successfully submitted!");
+      alert("Your form was successfully submitted!");
+      return true;
    }
-
-   return true;
 }
 
 function clearText() { //for comments button
