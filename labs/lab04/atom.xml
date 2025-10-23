@@ -53,4 +53,14 @@
         	In Lab 4, I created both RSS and Atom XML files to contain data about all labs completed in ITWS 1100.
         </summary>
 	</entry>
+
+	<entry>
+		<title>Lab 05</title>
+		<link href="http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab05/lab05.hmtl" />
+		<id>urn:uuid:3c55888d-8c92-443a-b756-de6991948a4e</id>
+		<updated>2025-10-20T23:59:00Z</updated>
+		<summary>
+			In Lab 5, I built an interactive HTML form using JavaScript!
+		</summary>
+	</entry>
 </feed>
