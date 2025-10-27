@@ -33,3 +33,5 @@ Created:
 - Challenge B: created an array of images, simple traversing through the array to display images with "Next" and "Previous" buttons
 
 - Challenge C: used slideUp() to simulate an accordion, different console statements based on if accordion was opened or closed
+
+- product: solved small coding problems with jQuery

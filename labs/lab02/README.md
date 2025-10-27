@@ -19,3 +19,5 @@ Created:
 - with flexbox, created 3 columns (or children) and adjusted margins to make resume look nicer
 
 - commented out overflow = hidden; commenting allows for scrolling to see all of my information
+
+- product: professional resume

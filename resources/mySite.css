@@ -6,6 +6,11 @@ body {
   padding-bottom: 60px; /* space equal to footer height */
 }
 
+a { /*get rid of underscore for clickable logo*/
+  text-decoration: none;
+  color: inherit;
+}
+
 h1 { /*logo*/
   color: rgb(1, 96, 1);
   font-size: 30px;

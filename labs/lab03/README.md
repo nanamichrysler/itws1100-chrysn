@@ -11,9 +11,12 @@ Learned:
 
 - learned how to make sure I'm working on the correct branch
 
-- commit changes, push origin, 
-Learned to make sure I'm working on the correct branch. 
+- commit changes, push origin, create pull request, merge the branches, then ssh into my Azure server, find my repository, sudo -u www-data git pull
 
-Had to remember that I need to pull, push, merge the branches. 
+- explored flex boxes, and implemented in the About Me page
 
-Learned more in depth of how flex box works, and implemented in the About Me page.
+Created:
+
+- created foundation of website, the general layout to build on
+
+- product: personal porfolio website

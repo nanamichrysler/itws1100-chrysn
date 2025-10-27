@@ -41,3 +41,5 @@ To solve Crime #4 (Not indicating an active form field):
 To solve Extra Credit (On First Load of the Page, Focus First Form Element):
     - added 'autofocus' => automatically places keyboard focus on that element when web page loads
         - here:<input type="text" size="60" value="" name="firstName" id="firstName" autofocus/>
+
+- product: contact info form
