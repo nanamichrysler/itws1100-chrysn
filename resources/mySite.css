@@ -108,7 +108,10 @@ p {
   transition: all 0.3s ease;
   text-decoration: none; /*removes underline if it's a link*/
   display: inline-block;
-  gap: 20px;
+}
+
+.back {
+  margin: -20px 0 0 20px;
 }
 
 .button:hover {
