@@ -11,7 +11,7 @@ Learned:
 
 - learned how to make sure I'm working on the correct branch
 
-- commit changes, 
+- commit changes, push origin, 
 Learned to make sure I'm working on the correct branch. 
 
 Had to remember that I need to pull, push, merge the branches. 
