@@ -1,6 +1,21 @@
 # itws1100-chrysn
+working url: http://chrysnrpi.eastus.cloudapp.azure.com/iit/index.html
 
-Creating a flexbox allowed for better formatting. It was really interesting how I could create 
-3 columns (or children) and adjust the margins to make the resume look nicer.
+lab url: http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab02.html
 
-Overflow = hidden; I commented this line out because when overflow is hidden, it means that it clips the extra content that doesn't fit on page. By commenting out this line, I allow for overflow, or scrolling, to see all of my information. 
+username: chrysn
+
+password: Famcomp73!
+
+Learned:
+
+- flexbox => allows for better formatting. 
+
+- overflow = hidden; => clips extra content that doesn't fit on the page
+
+
+Created:
+
+- with flexbox, created 3 columns (or children) and adjusted margins to make resume look nicer
+
+- commented out overflow = hidden; commenting allows for scrolling to see all of my information
