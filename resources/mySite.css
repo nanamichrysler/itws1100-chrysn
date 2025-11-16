@@ -22,6 +22,16 @@ h2 { /*ABOUT ME*/
   color: white;
   font-size: 60px;
   padding-left: 10px;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h3 { /*Home Page*/
+  font-size: 60px;
+  color: white;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 h4 { /*contact me*/
@@ -29,6 +39,13 @@ h4 { /*contact me*/
   font-size: 40px;
   text-align: center;
 }
+
+h5 { 
+  font-size: 25px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
 p {
   color: black;
   padding: 10px;
@@ -42,41 +59,73 @@ p {
 
 }
 
+.paragraph-slogan {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
 .paragraph-aboutMe { /*first paragraph of ABOUT ME*/
-  font-size: 40px;
+  font-size: 30px;
   padding-left: 10px;
+  text-align: center;
 }
 
 .paragraph-small { /*small texts get borders*/
   border: 1px solid white;
   border-radius: 8px;
-  display: inline-block; /*makes the element shrink-to-fit its content*/
-  width: auto; /*ensures the width adjusts to the content's length*/
 }
 
-.paragraph-small.padded { /*a padded version, used in Labs*/
+.paragraph-small.padded { /*a padded version, used in About Me & Labs*/
   padding: 10px;
   margin: 20px 10px;
+  overflow-wrap: break-word;
 }
 
-.item-flex { /*referenced from Lab02-SampleResumeFlexBox2025.html*/
+.home-flex {
   display: flex;
-  align-items: flex-start; /*aligns items to the top*/
-  margin-bottom: 5px; /*spacing between entries*/
-  gap: 5px;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
 }
 
-.item-left {
-  flex: 1;
-}
-
-.item-right {
-  flex: auto;   /* width is determined by content or min-width, doesn't grow */
-  min-width: 120px;
-  font-size: 0.98em;
-  margin-left: 15px; /* small gap between columns */
+.home-left {
+  flex: 1; /* expands text until it hits the image */
   text-align: left;
-  padding-top: 0px;
+  margin: 30px;
+}
+
+.home-right {
+  flex: 0 0 auto; /* keeps image fixed */
+  margin-right: 20px;
+}
+
+.home-left p {
+  padding: 0;
+  margin: 0 30px 10px 0;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 40px;
+}
+
+.about-left {
+  flex: 0 0 auto;
+}
+
+.about-left .img-swim {
+  width: 250px;
+  border-radius: 12px;
+}
+
+.about-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .center-block {
@@ -135,6 +184,20 @@ p {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.card h3 {
+  font-size: 20px; 
+  color: black;
+  margin: 10px 0 10px 0; 
+  padding: 0;
+}
+
+.card p {
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
 .card:hover { /*lifts up when you hover*/
   transform: translateY(-5px);
   box-shadow: 0 16px 30px rgba(0,0,0,0.15);
@@ -189,28 +252,23 @@ p {
   align-items: center;
   text-align: center;
   color: white;
-  padding: 0 20px;
-}
-
-
-.hero h3 {
-  font-size: 60px;
-  padding: 0;
 }
 
 .hero .cta {
   margin: 20px;
 }
 
-.img-headshot { /*headshot image for aboutme */
-  width: 400px; 
+.img-headshot { /*headshot image for Home Page */
+  width: 325px; 
+  height: auto; /* height will adjust proportionally */
+  border-radius: 20px;
+}
+
+.img-swim { /*swim image for About Me */
+  width: 200px; 
   height: auto; /* height will adjust proportionally */
   border-radius: 10px;
   transition: transform 0.4s ease
-}
-
-.img-headshot:hover {
-  transform: scale(1.05);
 }
 
 .labsImage-container {
@@ -230,9 +288,15 @@ p {
 .img-github { width: 500px; }
 .img-resume { width: 1200px; }
 
-.img-gmail, .img-linkedIn { /*icons for contact me page*/
+.img-gmail, .img-linkedIn { /*icons for footer*/
   width: 20px;
   height: auto;
+}
+
+.img-contact { /*icons for Contact Me*/
+  width: 50px;
+  height: auto;
+  padding: 10px;
 }
 
 /*RSS styling*/
@@ -264,4 +328,12 @@ lastBuildDate {
 pubDate {
   display: block;
   padding: 10px;
+}
+
+.search-bar {
+  float: right;
+  margin-right: 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px grey;
 }

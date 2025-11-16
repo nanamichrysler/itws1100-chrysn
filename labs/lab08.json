@@ -1,0 +1,44 @@
+{
+   "projectItem": [
+      { 
+         "number": "Lab 01",
+         "title": "Set Up",
+         "link": "../labs/lab01/lab01.html"
+      },
+      {
+         "number": "Lab 02",
+         "title": "Resume",
+         "link": "../labs/lab02/lab02.html"
+      },
+      {
+         "number": "Lab 03",
+         "title": "Website",
+         "link": "../labs/lab03/lab03.html"
+      },
+      {
+         "number": "Lab 04",
+         "title": "RSS & Atom",
+         "link": "../labs/lab04/lab04.html"
+      },
+      {
+         "number": "Lab 05",
+         "title": "Contact Info Form",
+         "link": "../labs/lab05/lab05.html"
+      },
+      {
+         "number": "Lab 06",
+         "title": "jQuery",
+         "link": "../labs/lab06/lab06.html"
+      },
+      {
+         "number": "Lab 07",
+         "title": "Group Project Mockup",
+         "link": "../labs/lab07/lab07.html"
+      },
+      {
+         "number": "Lab 08",
+         "title": "JavaScript, JSON and AJAX",
+         "link": "../labs/lab08/lab08.html"
+      }
+   ]
+}
