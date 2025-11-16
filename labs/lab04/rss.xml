@@ -12,8 +12,9 @@
   <item>
     <title>Lab 01</title>
     <description>
-      In Lab 1, hi I set up my file server on Microsfot Azure, created a GitHub account, and linked our GitHub, 
-      servers, and local machines. A set of screenshots are included.
+      In Lab 1, I established the foundational development environment. We configured file servers on 
+			Microsoft Azure, created GitHub accounts, and integrated our local machines with remote servers 
+			and repositories to enable version-controlled web development.
     </description>
     <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab01/lab01.html</link>
     <guid isPermaLink="false">69a6a3e2-5c1f-493b-9ab9-8c85125a3b44</guid>
@@ -23,7 +24,9 @@
   <item>
     <title>Lab 02</title>
     <description>
-      In Lab 2, I started working wtih HTML and CSS. I created a resume with it, and is included.
+      In Lab 2, I used HTML and CSS to create a resume. I also organized my local repository structures, 
+			and practiced committing, pushing, and deploying files from my local enviornment to the Azure web 
+			server using GitHub Desktop.
     </description>
     <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab02/lab02.html</link>
     <guid isPermaLink="false">f3fdbed5-21c4-4665-8a31-01f1dfab403d</guid>
@@ -33,7 +36,10 @@
   <item>
     <title>Lab 03</title>
       <description>
-        In Lab 3, I created the foundation of this website. I used both HTML and external CSS to style my site.
+        In Lab 3, I deisgned and deployed this website. I used HTMl and CSS to implement consistent 
+			  navigation and layout elements that reflect my personal style. I also practiced good DevOps using 
+			  Git branching, which allows developers to safely experiment with new changes without affecting the 
+			  main version of their code.
       </description>
       <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab03/lab03.html</link>
       <guid isPermaLink="false">9dfb67e2-232d-43e2-882e-6f4971539ace</guid>
@@ -43,7 +49,8 @@
   <item>
     <title>Lab 04</title>
       <description>
-        In Lab 4, I created both RSS and Atom XML files to contain data about all labs completed in ITWS 1100.
+        In Lab 4, I created an RSS feed and Atom feed for my website. I developed a valid XML document 
+			  containing links to labs and integrated the feed into my homepage. 
       </description>
       <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab04/lab04.html</link>
       <guid isPermaLink="false">604c6fa7-4fb4-4f8a-a153-0a808b9cbf4e</guid>
@@ -52,10 +59,50 @@
 
   <item>
     <title>Lab 05</title>
-      <description>In Lab 5, I built an interactive HTML form using JavaScript!</description>
+      <description>
+        In Lab 5, I built an interactive HTML form using JavaScript. I implemented input validation, 
+			  dynamic text behavior, and user feedback alerts to improve usability. 
+      </description>
       <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab05/lab05.hmtl</link>
       <guid isPermaLink="false">02d03279-e084-4bff-a868-7ea7c2c9f497</guid>
       <pubDate>Mon, 20 Oct 2025 11:59:00 -0400</pubDate>
   </item>
+
+  <item>
+    <title>Lab 06</title>
+      <description>
+        In Lab 6, I practiced using jQuery to create dynamic web intereactions. I built interactive elements
+			  such as animated text, clickable lists, and a functional image gallery while learning how to use 
+			  event delegation and DOM manipulation effectively.
+      </description>
+      <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab06/lab06.hmtl</link>
+      <guid isPermaLink="false">69f67b3b-0df3-41ab-8cdf-17e2ab678d7c</guid>
+      <pubDate>Mon, 27 Oct 2025 11:59:00 -0400</pubDate>
+  </item>
+
+  <item>
+    <title>Lab 07</title>
+      <description>
+        In Lab 7, I created a prototype of the website I plan to create for my group project using Balsamiq. 
+        Prototypes are used to explore and test design ideas quickly and receive feedback. In this way, we 
+			  can make edits based on what we can see in our prototype, rather than make edits as we create the 
+			  final product.
+      </description>
+      <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab07/lab07.hmtl</link>
+      <guid isPermaLink="false">6346e58d-6341-4221-a9ba-73ea0d15f882</guid>
+      <pubDate>Mon, 02 Nov 2025 11:59:00 -0400</pubDate>
+  </item>
+
+  <item>
+    <title>Lab 08</title>
+      <description>
+        In Lab 8, I created a JSON file for my labs. I used the AJAX method to read my JSON file and 
+        dynamically create my lab cards for my Labs landing page.  
+      </description>
+      <link>http://chrysnrpi.eastus.cloudapp.azure.com/iit/labs/lab08/lab08.hmtl</link>
+      <guid isPermaLink="false">3eaf53c4-0fe2-48fa-b2ce-052305e21ef8</guid>
+      <pubDate>Mon, 17 Nov 2025 11:59:00 -0400</pubDate>
+  </item>
+
 </channel>
 </rss>
