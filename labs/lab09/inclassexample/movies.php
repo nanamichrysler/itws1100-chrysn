@@ -1,8 +1,6 @@
-<?php echo "LOADED MOVIES.PHP SUCCESSFULLY"; exit(); ?>
-
 <?php 
-include('includes/init.inc.php'); 
-include('includes/functions.inc.php');
+  include('includes/init.inc.php'); 
+  include('includes/functions.inc.php');
 ?>
 <title>PHP &amp; MySQL - ITWS</title>
 
