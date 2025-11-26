@@ -12,6 +12,9 @@
 <?php include('includes/menubody.inc.php'); ?>
 
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $dbOk = false;
 
 @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
