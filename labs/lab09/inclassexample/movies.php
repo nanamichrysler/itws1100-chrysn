@@ -1,3 +1,9 @@
+<?php
+echo "MOVIES.PHP IS RUNNING<br>";
+include('includes/init.inc.php');
+echo "INIT INCLUDED<br>";
+die();
+?>
 <?php 
   include('includes/init.inc.php'); 
   include('includes/functions.inc.php');
@@ -14,10 +20,6 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-
-echo "HOST = " . $_SERVER["HTTP_HOST"];
-die();
-
 
 $dbOk = false;
 
