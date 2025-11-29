@@ -1,9 +1,3 @@
-<?php
-echo "MOVIES.PHP IS RUNNING<br>";
-include('includes/init.inc.php');
-echo "INIT INCLUDED<br>";
-die();
-?>
 <?php 
   include('includes/init.inc.php'); 
   include('includes/functions.inc.php');
