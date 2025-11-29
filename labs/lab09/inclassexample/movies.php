@@ -15,6 +15,10 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+echo "HOST = " . $_SERVER["HTTP_HOST"];
+die();
+
+
 $dbOk = false;
 
 @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);

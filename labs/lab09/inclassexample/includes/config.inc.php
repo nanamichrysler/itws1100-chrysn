@@ -1,5 +1,9 @@
 <?php
 
+
+echo "HOST = " . $_SERVER["HTTP_HOST"];
+die();
+
 // Database configuration
 // This file sets up database connection parameters based on the environment
 // For production, update these values or use environment variables
