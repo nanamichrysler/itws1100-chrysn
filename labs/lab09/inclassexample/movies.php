@@ -1,8 +1,12 @@
-<?php echo "LOADED MOVIES.PHP SUCCESSFULLY"; exit(); ?>
-
+<?php
+echo "MOVIES.PHP IS RUNNING<br>";
+include('includes/init.inc.php');
+echo "INIT INCLUDED<br>";
+die();
+?>
 <?php 
-include('includes/init.inc.php'); 
-include('includes/functions.inc.php');
+  include('includes/init.inc.php'); 
+  include('includes/functions.inc.php');
 ?>
 <title>PHP &amp; MySQL - ITWS</title>
 
@@ -14,6 +18,7 @@ include('includes/functions.inc.php');
 <?php include('includes/menubody.inc.php'); ?>
 
 <?php
+
 $dbOk = false;
 
 @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
