@@ -13,10 +13,9 @@
 
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+$dbOk = false;
 
-$db = new mysqli('localhost', 'root', 'root', 'iit'); // match your config
+@$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
 
 if ($db->connect_error) {
    echo '<div class="messages">Could not connect to the database. Error: ';
