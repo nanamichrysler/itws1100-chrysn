@@ -39,6 +39,16 @@
          "number": "Lab 08",
          "title": "JavaScript, JSON and AJAX",
          "link": "../labs/lab08/lab08.html"
+      },
+      {
+         "number": "Lab 09",
+         "title": "PHP & MySQL",
+         "link": "../labs/lab09/lab09.html"
+      },
+      {
+         "number": "Lab 10",
+         "title": "Deployment",
+         "link": "../labs/lab10/lab10.html"
       }
    ]
 }
