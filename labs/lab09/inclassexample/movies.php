@@ -1,5 +1,6 @@
 <?php 
   include('includes/init.inc.php'); 
+  include('includes/config.inc.php');
   include('includes/functions.inc.php');
 ?>
 <title>PHP &amp; MySQL - ITWS</title>
