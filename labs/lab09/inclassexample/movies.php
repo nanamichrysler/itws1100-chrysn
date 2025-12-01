@@ -1,7 +1,15 @@
 <?php 
-  include('includes/init.inc.php'); 
-  include('includes/config.inc.php');
-  include('includes/functions.inc.php');
+  echo "<!-- before includes -->";
+
+include('includes/init.inc.php'); 
+echo "<!-- after init -->";
+
+include('includes/config.inc.php'); 
+echo "<!-- after config -->";
+
+include('includes/functions.inc.php'); 
+echo "<!-- after functions -->";
+
 ?>
 <title>PHP &amp; MySQL - ITWS</title>
 
@@ -13,14 +21,6 @@
 <?php include('includes/menubody.inc.php'); ?>
 
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-print_r($GLOBALS['DB_HOST']);
-print_r($GLOBALS['DB_USERNAME']);
-print_r($GLOBALS['DB_PASSWORD']);
-print_r($GLOBALS['DB_NAME']);
-
 $dbOk = false;
 
 @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);

@@ -39,8 +39,8 @@ CREATE TABLE movies_actors (
   `actorid` int(10) UNSIGNED NOT NULL,
   `movieid` int(10) UNSIGNED NOT NULL,
   PRIMARY KEY (actorid, movieid),
-  FOREIGN KEY (actorid) REFERENCES actors(actorsid), -- specify relationship
-  FOREIGN KEY (movieid) REFERENCES movies(movieid) -- specify relationship
+  FOREIGN KEY (actorid) REFERENCES actors(actorsid), 
+  FOREIGN KEY (movieid) REFERENCES movies(movieid) 
 );
 
 -- insert data into the table
