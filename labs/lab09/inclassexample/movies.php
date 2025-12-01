@@ -1,5 +1,5 @@
 <?php
-echo "<p>TEST: This is working!</p>";
+echo "<p>TEST TOP OF FILE</p>";
 ?>
 
 <?php 
