@@ -1,16 +1,9 @@
 <?php 
-  echo "<!-- before includes -->";
-
-include('includes/init.inc.php'); 
-echo "<!-- after init -->";
-
-include('includes/config.inc.php'); 
-echo "<!-- after config -->";
-
-include('includes/functions.inc.php'); 
-echo "<!-- after functions -->";
-
+  include('includes/init.inc.php'); 
+  include('includes/config.inc.php'); 
+  include('includes/functions.inc.php'); 
 ?>
+
 <title>PHP &amp; MySQL - ITWS</title>
 
 <?php include('includes/head.inc.php'); ?>
@@ -108,20 +101,25 @@ if ($havePost) {
 <?php
 if ($dbOk) {
 
-   $query = "SELECT * FROM movies ORDER BY year";
-   $result = $db->query($query);
+  $query = "SELECT * FROM movies ORDER BY year";
+  $result = $db->query($query);
 
-   echo '<tr><th>Title</th><th>Year</th></tr>';
+  echo '<tr><th>Title</th><th>Year</th></tr>';
 
-   while ($record = $result->fetch_assoc()) {
+  echo '<tr><th>Title</th><th>Year</th><th></th></tr>';
 
-      echo '<tr id="movie-' . $record['movieid'] . '"><td>';
-      echo htmlspecialchars($record['title']);
-      echo '</td><td>';
-      echo htmlspecialchars($record['year']);
-      echo '</td></tr>';
-   }
+  $i = 0;
+  while ($record = $result->fetch_assoc()) {
+    $rowClass = ($i % 2 == 0 ? '' : 'class="odd"');
 
+    echo "<tr $rowClass id='movie-{$record['movieid']}'>";
+    echo "<td>" . htmlspecialchars($record['title']) . "</td>";
+    echo "<td>" . htmlspecialchars($record['year']) . "</td>";
+    echo "<td><img src='resources/delete.png' class='deleteMovie' width='16' height='16' alt='delete movie'/></td>";
+    echo "</tr>";
+      
+    $i++;
+  }
    $result->free();
    $db->close();
 }
