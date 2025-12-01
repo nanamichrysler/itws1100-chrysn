@@ -15,7 +15,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-print($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME'])
+print_r($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME'])
 
 $dbOk = false;
 
