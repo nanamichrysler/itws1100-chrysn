@@ -9,3 +9,11 @@ asked how it would work with how i have my Apache will serve and the other index
 /var/www/html/index.php 
 
 created a temporary copy of my index.html in case i change my mind
+
+
+
+
+ight now when i click submit on my form, i get redirected to submit_comment.php but then i get 404 
+not found. when i click submit on the form, i want to add that comment to the mySite table right. 
+so should i be getting redirected to hte submit_comment.php? i feel like that php file should just 
+have the functinality to add the newly submitted to the mySite table. correct me if i'm wrong

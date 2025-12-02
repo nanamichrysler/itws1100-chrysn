@@ -72,7 +72,7 @@ include('resources/includes/header.php');
 </section>
 <section>
   <h2>Leave a Comment</h2>
-  <form id="commentForm" action="submit_comment.php" method="POST">
+  <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
       <label>Name:</label><br>
       <input type="text" name="name" id="name" required><br><br>
 
