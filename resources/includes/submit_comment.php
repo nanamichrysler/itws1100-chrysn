@@ -1,8 +1,4 @@
 <?php
-
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 include('config.inc.php'); // adjust the path if necessary
 
 @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
@@ -43,8 +39,6 @@ $query = "INSERT INTO siteComments (visitorName, email, comment, status)
 
 $stmt = $db->prepare($query);
 $stmt->bind_param("sss", $name, $email, $comment);
-
-
 
 if ($stmt->execute()) {
     echo "<h2>Thank you! Your comment has been submitted.</h2>";
