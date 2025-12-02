@@ -42,8 +42,13 @@
       },
       {
          "number": "Lab 09",
-         "title": "MySQL & PHP",
+         "title": "PHP & MySQL",
          "link": "../labs/lab09/lab09.html"
+      },
+      {
+         "number": "Lab 10",
+         "title": "Deployment",
+         "link": "../labs/lab10/lab10.html"
       }
    ]
 }
