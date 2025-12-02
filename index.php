@@ -101,6 +101,24 @@ include('resources/includes/header.php');
   </div>
   <h2>Visitor Comments</h2>
 
+  <h2>Leave a Comment</h2>
+
+  <form id="commentForm" action="submit_comment.php" method="POST">
+      <label>Name (required):</label><br>
+      <input type="text" name="name" id="name" required><br><br>
+
+      <label>Email (required):</label><br>
+      <input type="email" name="email" id="email" required><br><br>
+
+      <label>Your Comment (required):</label><br>
+      <textarea name="comment" id="comment" required></textarea><br><br>
+
+      <label>Feature Suggestion (optional):</label><br>
+      <textarea name="feature"></textarea><br><br>
+
+      <button type="submit">Submit Comment</button>
+  </form>
+  
   <?php
   if ($dbOk) {
 
@@ -135,23 +153,7 @@ include('resources/includes/header.php');
   }
   ?>
 
-  <h2>Leave a Comment</h2>
-
-  <form id="commentForm" action="submit_comment.php" method="POST">
-      <label>Name (required):</label><br>
-      <input type="text" name="name" id="name" required><br><br>
-
-      <label>Email (required):</label><br>
-      <input type="email" name="email" id="email" required><br><br>
-
-      <label>Your Comment (required):</label><br>
-      <textarea name="comment" id="comment" required></textarea><br><br>
-
-      <label>Feature Suggestion (optional):</label><br>
-      <textarea name="feature"></textarea><br><br>
-
-      <button type="submit">Submit Comment</button>
-  </form>
+  
 
   <script>
   document.getElementById("commentForm").onsubmit = function(e) {
