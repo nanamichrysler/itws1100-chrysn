@@ -34,11 +34,12 @@ if (!empty($errors)) {
 }
 
 // --- PREPARED STATEMENT INSERT ---
-$query = "INSERT INTO siteComments (visitor_name, email, comment_text, status)
+$query = "INSERT INTO siteComments (visitorName, email, comment, status)
           VALUES (?, ?, ?, 'approved')";
 
 $stmt = $db->prepare($query);
 $stmt->bind_param("sss", $name, $email, $comment);
+
 
 
 if ($stmt->execute()) {
