@@ -1,4 +1,16 @@
 <?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+include('config.inc.php'); // adjust the path if necessary
+
+@$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
+
+if ($db->connect_error) {
+    die("Database connection failed: " . $db->connect_error);
+}
+
 // --- SERVER-SIDE VALIDATION ---
 $name = trim($_POST['name']);
 $email = trim($_POST['email']);
