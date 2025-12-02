@@ -35,10 +35,11 @@ if (!empty($errors)) {
 
 // --- PREPARED STATEMENT INSERT ---
 $query = "INSERT INTO siteComments (visitor_name, email, comment_text, status)
-          VALUES (?, ?, ?, ?, 'approved')";
+          VALUES (?, ?, ?, 'approved')";
 
 $stmt = $db->prepare($query);
-$stmt->bind_param("ssss", $name, $email, $comment);
+$stmt->bind_param("sss", $name, $email, $comment);
+
 
 if ($stmt->execute()) {
     echo "<h2>Thank you! Your comment has been submitted.</h2>";
