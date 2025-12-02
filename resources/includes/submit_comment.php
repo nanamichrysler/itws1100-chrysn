@@ -1,12 +1,4 @@
 <?php
-include('resources/includes/config.inc.php');
-
-@$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
-
-if ($db->connect_error) {
-    die("Database connection failed.");
-}
-
 // --- SERVER-SIDE VALIDATION ---
 $name = trim($_POST['name']);
 $email = trim($_POST['email']);
