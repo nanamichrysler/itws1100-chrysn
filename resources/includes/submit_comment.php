@@ -11,7 +11,6 @@ if ($db->connect_error) {
 $name = trim($_POST['name']);
 $email = trim($_POST['email']);
 $comment = trim($_POST['comment']);
-$feature = trim($_POST['feature']);
 
 $errors = [];
 
@@ -35,11 +34,11 @@ if (!empty($errors)) {
 }
 
 // --- PREPARED STATEMENT INSERT ---
-$query = "INSERT INTO siteComments (visitor_name, email, comment_text, feature, status)
+$query = "INSERT INTO siteComments (visitor_name, email, comment_text, status)
           VALUES (?, ?, ?, ?, 'approved')";
 
 $stmt = $db->prepare($query);
-$stmt->bind_param("ssss", $name, $email, $comment, $feature);
+$stmt->bind_param("ssss", $name, $email, $comment);
 
 if ($stmt->execute()) {
     echo "<h2>Thank you! Your comment has been submitted.</h2>";
