@@ -1,0 +1,11 @@
+asked ChatGpT:
+
+this is my task for my quiz: *enter task*. give me steps to follow to complete it. 
+
+chat suggested changing my index.html into index.php so i asked further questions to determine why
+it was suggesting that. by changing index.html to index.php, i can directly input my php stuff. 
+if i don't do the switch, i could link my html file to a php file with my comments stuff. i also 
+asked how it would work with how i have my Apache will serve and the other index.php i have in 
+/var/www/html/index.php 
+
+created a temporary copy of my index.html in case i change my mind
