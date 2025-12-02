@@ -80,6 +80,7 @@ p {
   padding: 10px;
   margin: 20px 10px;
   overflow-wrap: break-word;
+  text-align: center;
 }
 
 .home-flex {
@@ -298,6 +299,8 @@ p {
   height: auto;
   padding: 10px;
 }
+
+.img-group { width: 1000px; }
 
 /*RSS styling*/
 title {
