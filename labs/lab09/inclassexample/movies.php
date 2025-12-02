@@ -104,7 +104,7 @@ if ($dbOk) {
    $query = "SELECT * FROM movies ORDER BY year";
    $result = $db->query($query);
 
-   echo '<tr><th>Title</th><th>Year</th></tr>';
+   echo '<tr><th>Title:</th><th>Year:</th></tr>';
 
    while ($record = $result->fetch_assoc()) {
 
