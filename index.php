@@ -75,10 +75,10 @@ include('resources/includes/header.php');
 <div id="commentBox">
   <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
     <div class="comment-fields">
-          <input type="text" id="name" class="comment-field" placeholder="Name" required>
-          <input type="email" id="email" class="comment-field" placeholder="Email" required>
+          <input type="text" id="name" name="name" class="comment-field" placeholder="Name" required>
+          <input type="email" id="email" name="email" class="comment-field" placeholder="Email" required>
     </div>
-    <textarea name="comment" id="comment" class="comment-input" required placeholder="Add a comment..."></textarea>
+    <textarea name="comment" id="comment" name="comment" class="comment-input" required placeholder="Add a comment..."></textarea>
     <button type="submit" class="comment-submit">Comment</button>
   </form>
 </div>
