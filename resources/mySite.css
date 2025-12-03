@@ -340,3 +340,66 @@ pubDate {
   border-radius: 6px;
   border: 1px grey;
 }
+
+#comment {
+  background-color: white;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+#comment label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#comment input[type="text"],
+#comment input[type="email"],
+#comment textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease; /* smooth hover/focus */
+}
+
+/* Focus effect */
+#comment input:focus,
+#comment textarea:focus {
+    background-color: #fee;
+    border-color: #f99;
+    outline: none;
+}
+
+#comment button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#comment button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* subtle hover pop */
+}
+
+#comment h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+#comment p {
+    font-size: 16px;
+    line-height: 1.5;
+}
