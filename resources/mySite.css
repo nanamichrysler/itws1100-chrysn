@@ -36,7 +36,7 @@ h3 { /*Home Page*/
 
 h4 { /*contact me*/
   color: white;
-  font-size: 35px;
+  font-size: 34px;
   text-align: center;
   margin: 0;
 }
@@ -415,12 +415,12 @@ pubDate {
 
 /* Comment container */
 .commentApproved {
-    background-color: #f9f9f9; /* light gray background */
-    border: 1px solid #ddd;    /* subtle border */
-    border-radius: 8px;        /* rounded corners */
-    padding: 15px;             /* space inside */
-    margin-bottom: 15px;       /* space between comments */
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.05); /* soft shadow */
+  background-color: white;
+  border-radius: 8px;        /* rounded corners */
+  padding: 15px;             /* space inside */
+  margin-bottom: 15px;       /* space between comments */
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.05); /* soft shadow */
+  width: 400px;
 }
 
 /* Name */
@@ -442,7 +442,14 @@ pubDate {
     margin-top: 5px;
 }
 
-/* Optional: add hover effect */
-.commentApproved:hover {
-    background-color: #f1f1f1;
+.commentAccepted {
+  background-color: rgb(1, 96, 1);
+  border: 1px solid #ddd;    /* subtle border */
+  border-radius: 8px;        /* rounded corners */
+  padding: 15px;             /* space inside */
+  margin-bottom: 15px;       /* space between comments */
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.05); /* soft shadow */
+  width: 400px;
+  text-align: center;
+  display: block;
 }

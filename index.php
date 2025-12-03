@@ -112,15 +112,16 @@ if ($dbOk) { //connected to database
 
   //display approved comments if there are any, display message if none are approved yet
   if ($result->num_rows === 0) {
-      echo "<p>No comments yet — be the first to leave one!</p>";
+    echo '<div class="commentApproved">';
+    echo "<p>No comments yet — be the first to leave one!</p>";
   } else {
-      while ($row = $result->fetch_assoc()) {
-        echo '<div class="commentApproved">';
-        echo '<strong>' . htmlspecialchars($row['visitorName']) . '</strong><br>';
-        echo '<em>' . htmlspecialchars($row['timestamp']) . '</em><br>';
-        echo '<p>' . nl2br(htmlspecialchars($row['comment'])) . '</p>';
-        echo '</div><hr>';
-      }
+    while ($row = $result->fetch_assoc()) {
+      echo '<div class="commentApproved">';
+      echo '<strong>' . htmlspecialchars($row['visitorName']) . '</strong><br>';
+      echo '<em>' . htmlspecialchars($row['timestamp']) . '</em><br>';
+      echo '<p>' . nl2br(htmlspecialchars($row['comment'])) . '</p>';
+      echo '</div><hr>';
+    }
   }
   $stmt->close();
 }
