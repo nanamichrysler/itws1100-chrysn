@@ -29,7 +29,7 @@ if (!empty($errors)) {
     foreach ($errors as $e) {
         echo "<p>$e</p>";
     }
-    echo '<p><a href="index.php">Go Back</a></p>';
+    echo '<p><a href="../../index.php">Go Back</a></p>';
     exit();
 }
 
@@ -45,7 +45,7 @@ if ($stmt->execute()) {
     echo '<p><a href="index.php">Return to Home</a></p>';
 } else {
     echo "<h2>Error inserting comment.</h2>";
-    echo '<p><a href="index.php">Return to Home</a></p>';
+    echo '<p><a href="../../index.php">Return to Home</a></p>';
 }
 
 $stmt->close();

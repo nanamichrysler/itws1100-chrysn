@@ -101,10 +101,10 @@ include('resources/includes/header.php');
 <?php
 if ($dbOk) { //connected to database
   //retrieve approved comments & order them by newest comments first
-  $query = "SELECT visitor_name, email, comment_text, comment_timestamp 
+  $query = "SELECT visitorName, email, comment, timestamp 
             FROM siteComments 
             WHERE status = 'approved'
-            ORDER BY comment_timestamp DESC";
+            ORDER BY timestamp DESC";
 
   $stmt = $db->prepare($query);
   $stmt->execute();
@@ -116,9 +116,9 @@ if ($dbOk) { //connected to database
   } else {
       while ($row = $result->fetch_assoc()) {
         echo '<div class="comment-box">';
-        echo '<strong>' . htmlspecialchars($row['visitor_name']) . '</strong><br>';
-        echo '<em>' . htmlspecialchars($row['comment_timestamp']) . '</em><br>';
-        echo '<p>' . nl2br(htmlspecialchars($row['comment_text'])) . '</p>';
+        echo '<strong>' . htmlspecialchars($row['visitorName']) . '</strong><br>';
+        echo '<em>' . htmlspecialchars($row['timestamp']) . '</em><br>';
+        echo '<p>' . nl2br(htmlspecialchars($row['comment'])) . '</p>';
         echo '</div><hr>';
       }
   }
