@@ -70,18 +70,18 @@ include('resources/includes/header.php');
     </div>
   </div>
 </section>
+<!--comment form -->
 <h6>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h6>
 <div id="commentBox">
   <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
     <div class="comment-fields">
-          <input type="text" name="name" class="comment-field" placeholder="Name" required>
-          <input type="email" name="email" class="comment-field" placeholder="Email" required>
+          <input type="text" id="name" class="comment-field" placeholder="Name" required>
+          <input type="email" id="email" class="comment-field" placeholder="Email" required>
     </div>
     <textarea name="comment" id="comment" class="comment-input" required placeholder="Add a comment..."></textarea>
     <button type="submit" class="comment-submit">Comment</button>
   </form>
 </div>
-
 <br>
 <div class="contact-icons">
   <a href="mailto:nanami.jc73@gmail.com">
@@ -99,8 +99,8 @@ include('resources/includes/header.php');
 </div>
   
 <?php
-if ($dbOk) {
-
+if ($dbOk) { //connected to database
+  //retrieve approved comments & order them by newest comments first
   $query = "SELECT visitor_name, email, comment_text, comment_timestamp 
             FROM siteComments 
             WHERE status = 'approved'
@@ -108,37 +108,22 @@ if ($dbOk) {
 
   $stmt = $db->prepare($query);
   $stmt->execute();
-  $result = $stmt->get_result();
+  $result = $stmt->get_result(); //stores all of the approved ocmments
 
+  //display approved comments if there are any, display message if none are approved yet
   if ($result->num_rows === 0) {
       echo "<p>No comments yet — be the first to leave one!</p>";
   } else {
       while ($row = $result->fetch_assoc()) {
-
         echo '<div class="comment-box">';
         echo '<strong>' . htmlspecialchars($row['visitor_name']) . '</strong><br>';
         echo '<em>' . htmlspecialchars($row['comment_timestamp']) . '</em><br>';
         echo '<p>' . nl2br(htmlspecialchars($row['comment_text'])) . '</p>';
-
         echo '</div><hr>';
       }
   }
-
   $stmt->close();
 }
 ?>
-
-<script>
-  document.getElementById("commentForm").onsubmit = function(e) {
-      let name = document.getElementById("name").value.trim();
-      let email = document.getElementById("email").value.trim();
-      let comment = document.getElementById("comment").value.trim();
-
-      if (name === "" || email === "" || comment === "") {
-          e.preventDefault();
-          alert("Please fill out all required fields.");
-      }
-  };
-</script>
 
 <?php include('resources/includes/footer.php') ?>

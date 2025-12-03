@@ -346,6 +346,7 @@ h6 {
   font-size: 30px;
   color: white;
   margin: 0;
+  text-align: center;
 }
 /*comment form*/
 #commentBox {
@@ -402,6 +403,7 @@ h6 {
     cursor: pointer;
     font-family: 'Playfair Display', serif;
     display: block;
+    margin: 20px auto;
 }
 
 .comment-submit:hover {
