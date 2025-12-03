@@ -73,17 +73,12 @@ include('resources/includes/header.php');
 <h4>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h4>
 <div id="commentBox">
   <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
-
-      <h3 class="comment-title">Join the discussion…</h3>
-
-      <textarea name="comment" id="comment" class="comment-input" required placeholder="Add a comment..."></textarea>
-
-      <div class="comment-fields">
+    <div class="comment-fields">
           <input type="text" name="name" class="comment-field" placeholder="Name" required>
           <input type="email" name="email" class="comment-field" placeholder="Email" required>
-      </div>
-
-      <button type="submit" class="comment-submit">Comment</button>
+    </div>
+    <textarea name="comment" id="comment" class="comment-input" required placeholder="Add a comment..."></textarea>
+    <button type="submit" class="comment-submit">Comment</button>
   </form>
 </div>
 
