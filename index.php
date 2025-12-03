@@ -71,20 +71,23 @@ include('resources/includes/header.php');
   </div>
 </section>
 <h4>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h4>
-<div id="comment">
+<div id="commentBox">
   <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
-      <label>Name:</label><br>
-      <input type="text" name="name" id="name" required><br><br>
 
-      <label>Email:</label><br>
-      <input type="email" name="email" id="email" required><br><br>
+      <h3 class="comment-title">Join the discussion…</h3>
 
-      <label>Your Comment:</label><br>
-      <textarea name="comment" id="comment" required></textarea><br><br>
+      <textarea name="comment" id="comment" class="comment-input" required placeholder="Add a comment..."></textarea>
 
-      <button type="submit">Submit Comment</button>
+      <div class="comment-fields">
+          <input type="text" name="name" class="comment-field" placeholder="Name" required>
+          <input type="email" name="email" class="comment-field" placeholder="Email" required>
+      </div>
+
+      <button type="submit" class="comment-submit">Comment</button>
   </form>
 </div>
+
+<br>
 <div class="contact-icons">
   <a href="mailto:nanami.jc73@gmail.com">
     <img src="./resources/images/gmail icon.png" alt="Gmail" class="img-gmail">
