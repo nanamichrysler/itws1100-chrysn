@@ -5,6 +5,7 @@
 body {
    font-family: 'Playfair Display', serif;
 }
+
 #bodyBlock {
    width: 700px;
    margin: auto;
@@ -12,6 +13,7 @@ body {
    border-radius: 10px;
    background-color: rgb(120, 177, 120);
 }
+
 #output {
    margin: 1em 0;
    color: black;
@@ -19,9 +21,11 @@ body {
    padding: 1em;
    border: 1px solid #ddd;
 }
+
 fieldset {
    padding-top: 1em;
 }
+
 .field {
    width: 120px;
    margin: 0 0.5em 0.5em 0;
@@ -29,9 +33,11 @@ fieldset {
    clear: left;
    text-align: right;
 }
+
 .value {
    margin: 0 0 0.5em 0;
 }
+
 #save {
    float: right;
    border-radius: 3px;
