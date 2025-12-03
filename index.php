@@ -70,8 +70,8 @@ include('resources/includes/header.php');
     </div>
   </div>
 </section>
-<section>
-  <h2>Leave a Comment</h2>
+<div id="comment">
+  <h4>Leave a Comment</h4>
   <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
       <label>Name:</label><br>
       <input type="text" name="name" id="name" required><br><br>
@@ -84,7 +84,7 @@ include('resources/includes/header.php');
 
       <button type="submit">Submit Comment</button>
   </form>
-</section>
+</div>
 <div class="contact-icons">
   <a href="mailto:nanami.jc73@gmail.com">
     <img src="./resources/images/gmail icon.png" alt=Gmail" class="img-gmail">
