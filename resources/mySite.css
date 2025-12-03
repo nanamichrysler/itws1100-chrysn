@@ -342,60 +342,71 @@ pubDate {
   border: 1px grey;
 }
 
-#comment {
-  background-color: white;
-  width: 400px;
-  margin: auto;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+/* Main comment container */
+#commentBox {
+    background: #fff;
+    width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    font-family: sans-serif;
 }
 
-#comment label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
+/* Title */
+.comment-title {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
 }
 
-#comment input[type="text"],
-#comment input[type="email"],
-#comment textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  font-family: 'Playfair Display', serif;
-  transition: all 0.3s ease; 
+/* Big comment textarea */
+.comment-input {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
-#comment input:focus,
-#comment textarea:focus {
-  background-color: #fee;
-  border-color: #f99;
-  outline: none;
+/* Name + Email row */
+.comment-fields {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
-#comment button[type="submit"] {
-  background-color: rgb(1, 96, 1);
-  color: white;
-  border: none;
-  padding: 12px 30px;
-  border-radius: 8px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: block;
-  margin: 0 auto;
+/* Inputs */
+.comment-field {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
 }
 
-#comment button[type="submit"]:hover {
-  background-color: rgb(0, 70, 0);
-  transform: scale(1.05); 
+/* Submit button */
+.comment-submit {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
-#comment p {
-  font-size: 16px;
-  line-height: 1.5;
+.comment-submit:hover {
+    background-color: #3367d6;
+}
+
+/* Focus highlight */
+.comment-field:focus,
+.comment-input:focus {
+    border-color: #4285f4;
+    background: #f0f7ff;
+    outline: none;
 }
