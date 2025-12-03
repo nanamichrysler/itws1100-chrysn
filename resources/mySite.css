@@ -36,7 +36,7 @@ h3 { /*Home Page*/
 
 h4 { /*contact me*/
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   margin: 0;
 }
@@ -342,12 +342,6 @@ pubDate {
   border: 1px grey;
 }
 
-h6 {
-  font-size: 30px;
-  color: white;
-  margin: 0;
-  text-align: center;
-}
 /*comment form*/
 #commentBox {
   background-color: #fff;
@@ -416,4 +410,39 @@ h6 {
   background-color: #fee; 
   border-color: #f99; 
   outline: none;
+}
+
+
+/* Comment container */
+.commentApproved {
+    background-color: #f9f9f9; /* light gray background */
+    border: 1px solid #ddd;    /* subtle border */
+    border-radius: 8px;        /* rounded corners */
+    padding: 15px;             /* space inside */
+    margin-bottom: 15px;       /* space between comments */
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.05); /* soft shadow */
+}
+
+/* Name */
+.commentApproved strong {
+    font-size: 1.1em;
+    color: #333;               /* dark text */
+}
+
+/* Timestamp */
+.commentApproved em {
+    font-size: 0.85em;
+    color: #777;               /* gray for timestamp */
+}
+
+/* Comment text */
+.commentApproved p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+/* Optional: add hover effect */
+.commentApproved:hover {
+    background-color: #f1f1f1;
 }

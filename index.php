@@ -71,7 +71,7 @@ include('resources/includes/header.php');
   </div>
 </section>
 <!--comment form -->
-<h6>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h6>
+<h4>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h4>
 <div id="commentBox">
   <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
     <div class="comment-fields">
@@ -115,7 +115,7 @@ if ($dbOk) { //connected to database
       echo "<p>No comments yet — be the first to leave one!</p>";
   } else {
       while ($row = $result->fetch_assoc()) {
-        echo '<div class="comment-box">';
+        echo '<div class="commentApproved">';
         echo '<strong>' . htmlspecialchars($row['visitorName']) . '</strong><br>';
         echo '<em>' . htmlspecialchars($row['timestamp']) . '</em><br>';
         echo '<p>' . nl2br(htmlspecialchars($row['comment'])) . '</p>';
