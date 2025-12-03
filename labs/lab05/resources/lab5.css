@@ -1,0 +1,56 @@
+/* Lab 5 CSS File 
+   Did you notice that CSS comments are the same as 
+   multi-line javascript comments? */
+
+body {
+   font-family: 'Playfair Display', serif;
+}
+
+#bodyBlock {
+   width: 700px;
+   margin: auto;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: rgb(120, 177, 120);
+}
+
+#output {
+   margin: 1em 0;
+   color: black;
+   background-color: #fee;
+   padding: 1em;
+   border: 1px solid #ddd;
+}
+
+fieldset {
+   padding-top: 1em;
+}
+
+.field {
+   width: 120px;
+   margin: 0 0.5em 0.5em 0;
+   float: left;
+   clear: left;
+   text-align: right;
+}
+
+.value {
+   margin: 0 0 0.5em 0;
+}
+
+#save {
+   float: right;
+   border-radius: 3px;
+}
+
+button {
+   border-radius: 3px;
+}
+
+input:focus { /*add background color for field sections*/
+   background-color: #fee;
+}
+
+textarea:focus { /*add background color for comments section*/
+   background-color: #fee;
+}
