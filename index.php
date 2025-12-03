@@ -70,7 +70,7 @@ include('resources/includes/header.php');
     </div>
   </div>
 </section>
-<h4>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h4>
+<h6>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h6>
 <div id="commentBox">
   <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
     <div class="comment-fields">
