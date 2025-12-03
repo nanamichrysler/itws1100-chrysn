@@ -41,6 +41,7 @@ $stmt = $db->prepare($query);
 $stmt->bind_param("sss", $name, $email, $comment);
 
 if ($stmt->execute()) {
+    echo '<div class="commentAccepted">';
     echo "<h2>Thank you! Your comment has been submitted.</h2>";
     echo '<p><a href="index.php">Return to Home</a></p>';
 } else {
