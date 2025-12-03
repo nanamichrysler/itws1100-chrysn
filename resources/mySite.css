@@ -343,7 +343,9 @@ pubDate {
 }
 
 h6 {
-  font-size: 38px;
+  font-size: 30px;
+  color: white;
+  margin: 0;
 }
 /*comment form*/
 #commentBox {
@@ -399,6 +401,7 @@ h6 {
     font-size: 15px;
     cursor: pointer;
     font-family: 'Playfair Display', serif;
+    display: block;
 }
 
 .comment-submit:hover {
