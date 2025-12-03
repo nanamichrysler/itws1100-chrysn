@@ -35,7 +35,7 @@ if (!empty($errors)) {
 
 // --- PREPARED STATEMENT INSERT ---
 $query = "INSERT INTO siteComments (visitorName, email, comment, status)
-          VALUES (?, ?, ?, 'approved')";
+          VALUES (?, ?, ?, 'pending')";
 
 $stmt = $db->prepare($query);
 $stmt->bind_param("sss", $name, $email, $comment);
