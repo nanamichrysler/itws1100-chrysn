@@ -218,18 +218,19 @@ p {
 }
 
 /*contact me page*/
-.contact-icons { /*line up in a row*/
+.contact-icons {
   background-color: rgb(217, 217, 217);
   display: flex;
   gap: 20px;
   justify-content: center;
   padding: 10px;
-  margin-top: 30px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
-  width: 1244.5px;
+  width: 100%;        /* Full width */
+  box-sizing: border-box;
 }
+
 
 .contact-icons a { /*styling for the <a> tag*/
   display: flex;
