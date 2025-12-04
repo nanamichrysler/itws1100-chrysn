@@ -114,7 +114,7 @@ if ($dbOk) { //connected to database
   if ($result->num_rows === 0) {
     echo '<div class="commentApproved">';
     echo "<p>No comments yet — be the first to leave one!</p>";
-    echo '</div>'
+    echo '</div>';
   } else {
     while ($row = $result->fetch_assoc()) {
       echo '<div class="commentApproved">';
