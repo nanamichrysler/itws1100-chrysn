@@ -62,7 +62,7 @@ if (!empty($errors)) {
         echo "<p>$e</p>";
     }
     echo '<p><a href="../../index.php">Go Back</a></p>';
-    exit();
+    return;
 }
 
 // --- PREPARED STATEMENT INSERT ---
