@@ -453,3 +453,7 @@ pubDate {
   text-align: center;
   display: block;
 }
+
+.commentAccepted h4{
+  color: black;
+}
