@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="../mySite.css"> 
     <!-- Adjust path depending on your folder structure -->
 </head>
 <body>
