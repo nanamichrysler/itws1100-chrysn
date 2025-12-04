@@ -443,7 +443,7 @@ pubDate {
 }
 
 .commentAccepted { /*for the page that confirms that the comment was submitted*/
-  background-color: rgb(1, 96, 1);
+  background-color: white;
   border: 1px solid #ddd;    /* subtle border */
   border-radius: 8px;        /* rounded corners */
   padding: 15px;             /* space inside */
