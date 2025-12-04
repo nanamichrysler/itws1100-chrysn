@@ -418,28 +418,28 @@ pubDate {
   background-color: white;
   border-radius: 8px;        /* rounded corners */
   padding: 15px;             /* space inside */
-  margin-bottom: 15px;       /* space between comments */
+  margin: 15px;       
   box-shadow: 1px 1px 5px rgba(0,0,0,0.05); /* soft shadow */
   width: 400px;
 }
 
 /* Name */
 .commentApproved strong {
-    font-size: 1.1em;
-    color: #333;               /* dark text */
+  font-size: 1.1em;
+  color: #333;               /* dark text */
 }
 
 /* Timestamp */
 .commentApproved em {
-    font-size: 0.85em;
-    color: #777;               /* gray for timestamp */
+  font-size: 0.85em;
+  color: #777;               /* gray for timestamp */
 }
 
 /* Comment text */
 .commentApproved p {
-    font-size: 1em;
-    line-height: 1.5;
-    margin-top: 5px;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-top: 5px;
 }
 
 .commentAccepted {
