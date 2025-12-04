@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/style.css"> 
+    <!-- Adjust path depending on your folder structure -->
+</head>
+<body>
+
 <?php
 include('config.inc.php'); // adjust the path if necessary
 
@@ -44,6 +52,7 @@ if ($stmt->execute()) {
     echo '<div class="commentAccepted">';
     echo "<h2>Thank you! Your comment has been submitted.</h2>";
     echo '<p><a href="index.php">Return to Home</a></p>';
+    echo '</div>'
 } else {
     echo "<h2>Error inserting comment.</h2>";
     echo '<p><a href="../../index.php">Return to Home</a></p>';
@@ -52,3 +61,6 @@ if ($stmt->execute()) {
 $stmt->close();
 $db->close();
 ?>
+
+</body>
+</html>
