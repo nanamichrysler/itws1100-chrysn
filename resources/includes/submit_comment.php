@@ -14,22 +14,6 @@
             <a href="./contactMe/contactme.html" class="button cta">Contact Me</a>
         </div>
     </div>
-
-    <div class="contact-icons">
-        <a href="mailto:nanami.jc73@gmail.com">
-            <img src="../images/gmail icon.png" alt="Gmail" class="img-gmail">
-            nanami.jc73@gmail.com
-        </a>
-        <a href="tel:+15302194452">
-            <img src="../images/phone logo.png" alt="Phone" class="img-gmail">
-            (530)-219-4452
-        </a>
-        <a href="https://www.linkedin.com/in/nanami-chrysler" target="_blank">
-            <img src="../images/linkedin icon.webp" alt="LinkedIn" class="img-linkedIn">
-            www.linkedin.com/in/nanami-chrysler
-        </a>
-    </div>
-
 <?php
 include('config.inc.php'); // adjust the path if necessary
 
@@ -74,7 +58,7 @@ $stmt->bind_param("sss", $name, $email, $comment);
 
 if ($stmt->execute()) {
     echo '<div class="commentAccepted">';
-    echo "<h4>Thank you! Your comment has been submitted.</h4><br>";
+    echo "<h4>Thank you! <br> Your comment has been submitted.</h4><br>";
     echo '<a href="../../index.php" class="button cta">Return to Home</a>';
     echo '</div>';
 } else {
@@ -84,6 +68,20 @@ if ($stmt->execute()) {
 
 $stmt->close();
 $db->close();
-
-include('footer.php');
+?>
+<div class="contact-icons">
+        <a href="mailto:nanami.jc73@gmail.com">
+            <img src="../images/gmail icon.png" alt="Gmail" class="img-gmail">
+            nanami.jc73@gmail.com
+        </a>
+        <a href="tel:+15302194452">
+            <img src="../images/phone logo.png" alt="Phone" class="img-gmail">
+            (530)-219-4452
+        </a>
+        <a href="https://www.linkedin.com/in/nanami-chrysler" target="_blank">
+            <img src="../images/linkedin icon.webp" alt="LinkedIn" class="img-linkedIn">
+            www.linkedin.com/in/nanami-chrysler
+        </a>
+    </div>
+<?php include('footer.php');
 ?>
