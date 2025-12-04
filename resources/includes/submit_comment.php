@@ -52,7 +52,7 @@ if ($stmt->execute()) {
     echo '<div class="commentAccepted">';
     echo "<h2>Thank you! Your comment has been submitted.</h2>";
     echo '<p><a href="index.php">Return to Home</a></p>';
-    echo '</div>'
+    echo '</div>';
 } else {
     echo "<h2>Error inserting comment.</h2>";
     echo '<p><a href="../../index.php">Return to Home</a></p>';
