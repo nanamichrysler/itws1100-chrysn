@@ -5,6 +5,16 @@
     <!-- Adjust path depending on your folder structure -->
 </head>
 <body>
+    <div class="banner">
+        <a href=index.php><h1>Nanami Chrysler</h1></a>
+        <div class="nav-links">
+            <a href="index.php" class="button cta">Home</a> <!--from .hero .cta class-->
+            <a href="./aboutMe/aboutme.html" class="button cta">About Me</a>
+            <a href="./labs/labs.html" class="button cta">Labs</a>
+            <a href="./groupProjects/groupProject.html" class="button cta">Group Projects</a>
+            <a href="./contactMe/contactme.html" class="button cta">Contact Me</a>
+        </div>
+    </div>
 
 <?php
 include('config.inc.php'); // adjust the path if necessary
@@ -50,17 +60,33 @@ $stmt->bind_param("sss", $name, $email, $comment);
 
 if ($stmt->execute()) {
     echo '<div class="commentAccepted">';
-    echo "<h2>Thank you! Your comment has been submitted.</h2>";
-    echo '<p><a href="index.php">Return to Home</a></p>';
+    echo "<h4>Thank you! Your comment has been submitted.</h2>";
+    echo '<a href="../../index.php" class="button cta">Return to Home</a>';
     echo '</div>';
 } else {
     echo "<h2>Error inserting comment.</h2>";
-    echo '<p><a href="../../index.php">Return to Home</a></p>';
+    echo '<a href="../../index.php">Return to Home</a>';
 }
 
 $stmt->close();
 $db->close();
+
+include('footer.php');
 ?>
 
-</body>
-</html>
+    <div class="contact-icons">
+    <a href="mailto:nanami.jc73@gmail.com">
+        <img src="./resources/images/gmail icon.png" alt="Gmail" class="img-gmail">
+        nanami.jc73@gmail.com
+    </a>
+    <a href="tel:+15302194452">
+        <img src="./resources/images/phone logo.png" alt="Phone" class="img-gmail">
+        (530)-219-4452
+    </a>
+    <a href="https://www.linkedin.com/in/nanami-chrysler" target="_blank">
+        <img src="./resources/images/linkedin icon.webp" alt="LinkedIn" class="img-linkedIn">
+        www.linkedin.com/in/nanami-chrysler
+    </a>
+    </div>
+
+<?php include('footer.php') ?>

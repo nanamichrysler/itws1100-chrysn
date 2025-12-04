@@ -442,12 +442,12 @@ pubDate {
   margin-top: 5px;
 }
 
-.commentAccepted {
+.commentAccepted { /*for the page that confirms that the comment was submitted*/
   background-color: rgb(1, 96, 1);
   border: 1px solid #ddd;    /* subtle border */
   border-radius: 8px;        /* rounded corners */
   padding: 15px;             /* space inside */
-  margin-bottom: 15px;       /* space between comments */
+  margin: 120px auto;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.05); /* soft shadow */
   width: 400px;
   text-align: center;
