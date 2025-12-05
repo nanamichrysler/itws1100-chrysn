@@ -14,62 +14,64 @@
             <a href="./contactMe/contactme.html" class="button cta">Contact Me</a>
         </div>
     </div>
-<?php
-include('config.inc.php'); // adjust the path if necessary
+    <div id="thanks">
+        <?php
+        include('config.inc.php'); // adjust the path if necessary
 
-@$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
+        @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
 
-if ($db->connect_error) {
-    die("Database connection failed: " . $db->connect_error);
-}
+        if ($db->connect_error) {
+            die("Database connection failed: " . $db->connect_error);
+        }
 
-// --- SERVER-SIDE VALIDATION ---
-$name = trim($_POST['name']);
-$email = trim($_POST['email']);
-$comment = trim($_POST['comment']);
+        // --- SERVER-SIDE VALIDATION ---
+        $name = trim($_POST['name']);
+        $email = trim($_POST['email']);
+        $comment = trim($_POST['comment']);
 
-$errors = [];
+        $errors = [];
 
-// Required fields
-if (empty($name)) $errors[] = "Name is required.";
-if (empty($email)) $errors[] = "Email is required.";
-if (empty($comment)) $errors[] = "Comment is required.";
+        // Required fields
+        if (empty($name)) $errors[] = "Name is required.";
+        if (empty($email)) $errors[] = "Email is required.";
+        if (empty($comment)) $errors[] = "Comment is required.";
 
-// Email format
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $errors[] = "Invalid email format.";
-}
+        // Email format
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $errors[] = "Invalid email format.";
+        }
 
-if (!empty($errors)) {
-    echo "<h3>Error submitting comment:</h3>";
-    foreach ($errors as $e) {
-        echo "<p>$e</p>";
-    }
-    echo '<p><a href="../../index.php">Go Back</a></p>';
-    return;
-}
+        if (!empty($errors)) {
+            echo "<h3>Error submitting comment:</h3>";
+            foreach ($errors as $e) {
+                echo "<p>$e</p>";
+            }
+            echo '<p><a href="../../index.php">Go Back</a></p>';
+            return;
+        }
 
-// --- PREPARED STATEMENT INSERT ---
-$query = "INSERT INTO siteComments (visitorName, email, comment, status)
-          VALUES (?, ?, ?, 'pending')";
+        // --- PREPARED STATEMENT INSERT ---
+        $query = "INSERT INTO siteComments (visitorName, email, comment, status)
+                VALUES (?, ?, ?, 'pending')";
 
-$stmt = $db->prepare($query);
-$stmt->bind_param("sss", $name, $email, $comment);
+        $stmt = $db->prepare($query);
+        $stmt->bind_param("sss", $name, $email, $comment);
 
-if ($stmt->execute()) {
-    echo '<div class="commentAccepted">';
-    echo "<h4>Thank you! <br> Your comment has been submitted.</h4><br>";
-    echo '<a href="../../index.php" class="button cta">Return to Home</a>';
-    echo '</div>';
-} else {
-    echo "<h2>Error inserting comment.</h2>";
-    echo '<a href="../../index.php">Return to Home</a>';
-}
+        if ($stmt->execute()) {
+            echo '<div class="commentAccepted">';
+            echo "<h4>Thank you! <br> Your comment has been submitted.</h4><br>";
+            echo '<a href="../../index.php" class="button cta">Return to Home</a>';
+            echo '</div>';
+        } else {
+            echo "<h2>Error inserting comment.</h2>";
+            echo '<a href="../../index.php">Return to Home</a>';
+        }
 
-$stmt->close();
-$db->close();
-?>
-<br><br><br><br>
+        $stmt->close();
+        $db->close();
+        ?>
+    </div> 
+
 <div class="contact-icons">
         <a href="mailto:nanami.jc73@gmail.com">
             <img src="../images/gmail icon.png" alt="Gmail" class="img-gmail">
@@ -86,3 +88,5 @@ $db->close();
     </div>
 <?php include('footer.php');
 ?>
+
+<br><br><br><br><br>
