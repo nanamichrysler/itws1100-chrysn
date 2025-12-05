@@ -4,6 +4,8 @@ body {
   margin: 0;
   position: relative;
   padding-bottom: 60px; /* space equal to footer height */
+  min-height: 100vh;
+  position: relative;
 }
 
 a { /*get rid of underscore for clickable logo*/
@@ -224,8 +226,6 @@ p {
   gap: 20px;
   justify-content: center;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
   left: 0;
   width: 100%;        /* Full width */
   box-sizing: border-box;
