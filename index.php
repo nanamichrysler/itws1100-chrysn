@@ -82,22 +82,6 @@ include('resources/includes/header.php');
     <button type="submit" class="comment-submit">Comment</button>
   </form>
 </div>
-<br>
-<div class="contact-icons">
-  <a href="mailto:nanami.jc73@gmail.com">
-    <img src="./resources/images/gmail icon.png" alt="Gmail" class="img-gmail">
-    nanami.jc73@gmail.com
-  </a>
-  <a href="tel:+15302194452">
-    <img src="./resources/images/phone logo.png" alt="Phone" class="img-gmail">
-    (530)-219-4452
-  </a>
-  <a href="https://www.linkedin.com/in/nanami-chrysler" target="_blank">
-    <img src="./resources/images/linkedin icon.webp" alt="LinkedIn" class="img-linkedIn">
-    www.linkedin.com/in/nanami-chrysler
-  </a>
-</div>
-  
 <?php
 if ($dbOk) { //connected to database
   //retrieve approved comments & order them by newest comments first
@@ -127,5 +111,22 @@ if ($dbOk) { //connected to database
   $stmt->close();
 }
 ?>
+<br>
+<div class="contact-icons">
+  <a href="mailto:nanami.jc73@gmail.com">
+    <img src="./resources/images/gmail icon.png" alt="Gmail" class="img-gmail">
+    nanami.jc73@gmail.com
+  </a>
+  <a href="tel:+15302194452">
+    <img src="./resources/images/phone logo.png" alt="Phone" class="img-gmail">
+    (530)-219-4452
+  </a>
+  <a href="https://www.linkedin.com/in/nanami-chrysler" target="_blank">
+    <img src="./resources/images/linkedin icon.webp" alt="LinkedIn" class="img-linkedIn">
+    www.linkedin.com/in/nanami-chrysler
+  </a>
+</div>
+  
+
 
 <?php include('resources/includes/footer.php') ?>
