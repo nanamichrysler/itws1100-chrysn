@@ -1,5 +1,5 @@
 <?php
-    header("Location: chrysnrpi.eastus.cloudapp.azure.com./iit/index.php"); /* Redirect browser */
+    header("Location: /iit/index.php"); /* Redirect browser */
 
     exit;
 ?>
