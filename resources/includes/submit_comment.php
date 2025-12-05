@@ -69,6 +69,7 @@ if ($stmt->execute()) {
 $stmt->close();
 $db->close();
 ?>
+<br><br><br><br>
 <div class="contact-icons">
         <a href="mailto:nanami.jc73@gmail.com">
             <img src="../images/gmail icon.png" alt="Gmail" class="img-gmail">
