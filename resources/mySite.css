@@ -4,6 +4,7 @@ body {
   margin: 0;
   position: relative;
   min-height: 100vh;
+  padding-bottom: 60px;
 }
 
 a { /*get rid of underscore for clickable logo*/
