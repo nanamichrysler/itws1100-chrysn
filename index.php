@@ -126,7 +126,5 @@ if ($dbOk) { //connected to database
     www.linkedin.com/in/nanami-chrysler
   </a>
 </div>
-  
-
 
 <?php include('resources/includes/footer.php') ?>

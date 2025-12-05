@@ -14,7 +14,7 @@
             <a href="./contactMe/contactme.html" class="button cta">Contact Me</a>
         </div>
     </div>
-    <div id="thanks">
+    <div>
         <?php
         include('config.inc.php'); // adjust the path if necessary
 
@@ -71,8 +71,7 @@
         $db->close();
         ?>
     </div> 
-
-<div class="contact-icons">
+    <div class="contact-icons">
         <a href="mailto:nanami.jc73@gmail.com">
             <img src="../images/gmail icon.png" alt="Gmail" class="img-gmail">
             nanami.jc73@gmail.com
@@ -86,7 +85,4 @@
             www.linkedin.com/in/nanami-chrysler
         </a>
     </div>
-<?php include('footer.php');
-?>
-
-<br><br><br><br><br>
+<?php include('footer.php');?>
