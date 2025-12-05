@@ -4,7 +4,6 @@ body {
   margin: 0;
   position: relative;
   min-height: 100vh;
-  position: relative;
 }
 
 a { /*get rid of underscore for clickable logo*/
@@ -228,8 +227,14 @@ p {
   left: 0;
   width: 100%;        /* Full width */
   box-sizing: border-box;
+  position: absolute; 
+  bottom: 0;       
+  height: 60px; 
 }
 
+#thanks {
+  padding-bottom: 60px;
+}
 
 .contact-icons a { /*styling for the <a> tag*/
   display: flex;
