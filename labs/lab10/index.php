@@ -1,5 +1,5 @@
 <?php
-    header("Location: ./iit/index.php"); /* Redirect browser */
+    header("Location: ./iit/home.php"); /* Redirect browser */
 
     exit;
 ?>
