@@ -16,7 +16,7 @@ include('resources/includes/header.php');
 <div class="banner">
   <a href=home.php><h1>Nanami Chrysler</h1></a>
   <div class="nav-links">
-    <a href="home.php" class="button cta">Home</a> <!--from .hero .cta class-->
+    <a href="home.php" class="button cta">Home</a> 
     <a href="./aboutMe/aboutme.html" class="button cta">About Me</a>
     <a href="./labs/labs.html" class="button cta">Labs</a>
     <a href="./groupProjects/groupProject.html" class="button cta">Group Projects</a>
