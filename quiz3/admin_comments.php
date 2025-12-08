@@ -78,6 +78,7 @@ $result = $db->query($query);
                 </a>
             </td>
         </tr>
+        <?php endwhile; ?>
     </table>
     <?php 
     endif; 
