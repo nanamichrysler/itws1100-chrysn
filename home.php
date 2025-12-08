@@ -74,7 +74,7 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
 <!--comment form, generated from ChatGPT -->
 <h4>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h4>
 <div id="commentBox">
-  <form id="commentForm" action="./quiz3/includes/submit_comment.php" method="POST">
+  <form id="commentForm" action="./quiz3/submit_comment.php" method="POST">
     <div class="comment-fields">
           <input type="text" id="name" name="name" class="comment-field" placeholder="Name" required>
           <input type="email" id="email" name="email" class="comment-field" placeholder="Email" required>
