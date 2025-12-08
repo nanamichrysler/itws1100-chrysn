@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../../resrouces/mySite.css"> 
+    <link rel="stylesheet" href="../../resources/mySite.css"> 
 </head>
 <body>
     <div class="banner">
