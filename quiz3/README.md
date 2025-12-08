@@ -17,7 +17,7 @@ For home.php (landing page for the home page):
         - status => enum('approved', 'pending'), default = pending
 
 - How to test the comment system:
-    1. Visit: https://chrysnrpi.eastus.cloudapp.azure.com/iit/quiz3/includes/admin_comments.php
+    1. Visit: https://chrysnrpi.eastus.cloudapp.azure.com/iit/quiz3/admin_comments.php
     2. Log in using this password: test123
     3. If there are no pending comments currently, visit http://chrysnrpi.eastus.cloudapp.azure.com and enter a new comment
     4. Click: approve

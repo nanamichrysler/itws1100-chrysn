@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../../resources/mySite.css"> 
+    <link rel="stylesheet" href="../resources/mySite.css"> 
 </head>
 <body>
     <div class="banner">
         <a href=home.php><h1>Nanami Chrysler</h1></a>
         <div class="nav-links">
-            <a href="../../home.php" class="button cta">Home</a> 
-            <a href="../../aboutMe/aboutme.html" class="button cta">About Me</a>
-            <a href="../../labs/labs.html" class="button cta">Labs</a>
-            <a href="../../groupProjects/groupProject.html" class="button cta">Group Projects</a>
-            <a href="../../contactMe/contactme.html" class="button cta">Contact Me</a>
+            <a href="../home.php" class="button cta">Home</a> 
+            <a href="../aboutMe/aboutme.html" class="button cta">About Me</a>
+            <a href="../labs/labs.html" class="button cta">Labs</a>
+            <a href="../groupProjects/groupProject.html" class="button cta">Group Projects</a>
+            <a href="../contactMe/contactme.html" class="button cta">Contact Me</a>
         </div>
     </div>
     <div>
         <?php
-        include('config.inc.php'); 
+        include('includes/config.inc.php'); 
 
         @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
 
@@ -86,4 +86,4 @@
             www.linkedin.com/in/nanami-chrysler
         </a>
     </div>
-<?php include('footer.php');?>
+<?php include('includes/footer.php');?>
