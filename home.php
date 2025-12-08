@@ -1,5 +1,5 @@
 <?php 
-include('quiz3/includes/config.inc.php'); // database configuration 
+include('./quiz3/includes/config.inc.php'); // database configuration 
 
 //connect to database
 @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
@@ -11,7 +11,7 @@ if ($db->connect_error) {
    $dbOk = true;
 }
 
-include('quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
+include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
 ?>
 
 <div class="banner">
@@ -127,4 +127,4 @@ if ($dbOk) { //connected to database
     www.linkedin.com/in/nanami-chrysler
   </a>
 </div>
-<?php include('quiz3/includes/footer.php') ?>
+<?php include('./quiz3/includes/footer.php') ?>
