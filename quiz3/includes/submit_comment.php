@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../mySite.css"> 
+    <link rel="stylesheet" href="../../resrouces/mySite.css"> 
 </head>
 <body>
     <div class="banner">
         <a href=home.php><h1>Nanami Chrysler</h1></a>
         <div class="nav-links">
             <a href="../../home.php" class="button cta">Home</a> 
-            <a href="./aboutMe/aboutme.html" class="button cta">About Me</a>
-            <a href="./labs/labs.html" class="button cta">Labs</a>
-            <a href="./groupProjects/groupProject.html" class="button cta">Group Projects</a>
-            <a href="./contactMe/contactme.html" class="button cta">Contact Me</a>
+            <a href="../../aboutMe/aboutme.html" class="button cta">About Me</a>
+            <a href="../../labs/labs.html" class="button cta">Labs</a>
+            <a href="../../groupProjects/groupProject.html" class="button cta">Group Projects</a>
+            <a href="../../contactMe/contactme.html" class="button cta">Contact Me</a>
         </div>
     </div>
     <div>
