@@ -47,7 +47,7 @@
             foreach ($errors as $e) {
                 echo "<p>$e</p>";
             }
-            echo '<p><a href="../../home.php">Go Back</a></p>';
+            echo '<p><a href="../home.php">Go Back</a></p>';
             return;
         }
 
