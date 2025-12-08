@@ -62,11 +62,11 @@
         if ($stmt->execute()) {
             echo '<div class="commentAccepted">';
             echo "<h4>Thank you! <br> Your comment has been submitted.</h4><br>";
-            echo '<a href="../../home.php" class="button cta">Return to Home</a>';
+            echo '<a href="../home.php" class="button cta">Return to Home</a>';
             echo '</div>';
         } else {
             echo "<h2>Error inserting comment.</h2>";
-            echo '<a href="../../home.php">Return to Home</a>';
+            echo '<a href="../home.php">Return to Home</a>';
         }
         $stmt->close();
         $db->close();
