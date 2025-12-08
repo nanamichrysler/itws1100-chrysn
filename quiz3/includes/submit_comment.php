@@ -5,9 +5,9 @@
 </head>
 <body>
     <div class="banner">
-        <a href=index.php><h1>Nanami Chrysler</h1></a>
+        <a href=home.php><h1>Nanami Chrysler</h1></a>
         <div class="nav-links">
-            <a href="../../index.php" class="button cta">Home</a> <!--from .hero .cta class-->
+            <a href="../../home.php" class="button cta">Home</a> 
             <a href="./aboutMe/aboutme.html" class="button cta">About Me</a>
             <a href="./labs/labs.html" class="button cta">Labs</a>
             <a href="./groupProjects/groupProject.html" class="button cta">Group Projects</a>
@@ -16,7 +16,7 @@
     </div>
     <div>
         <?php
-        include('config.inc.php'); // adjust the path if necessary
+        include('config.inc.php'); 
 
         @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
 
@@ -24,49 +24,50 @@
             die("Database connection failed: " . $db->connect_error);
         }
 
-        // --- SERVER-SIDE VALIDATION ---
+        //get values
         $name = trim($_POST['name']);
         $email = trim($_POST['email']);
         $comment = trim($_POST['comment']);
 
         $errors = [];
 
-        // Required fields
+        //make sure that each field is completed
         if (empty($name)) $errors[] = "Name is required.";
         if (empty($email)) $errors[] = "Email is required.";
         if (empty($comment)) $errors[] = "Comment is required.";
 
-        // Email format
+        //verifies email format; use php's built-in filter system
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $errors[] = "Invalid email format.";
         }
 
+        //if there are any errors in submitting a comment, show the error and return to home page
         if (!empty($errors)) {
             echo "<h3>Error submitting comment:</h3>";
             foreach ($errors as $e) {
                 echo "<p>$e</p>";
             }
-            echo '<p><a href="../../index.php">Go Back</a></p>';
+            echo '<p><a href="../../home.php">Go Back</a></p>';
             return;
         }
 
-        // --- PREPARED STATEMENT INSERT ---
+        //prepared statementto add comment
         $query = "INSERT INTO siteComments (visitorName, email, comment, status)
                 VALUES (?, ?, ?, 'pending')";
 
         $stmt = $db->prepare($query);
         $stmt->bind_param("sss", $name, $email, $comment);
 
+        //display message showing that the submission was successful and redirect to home page
         if ($stmt->execute()) {
             echo '<div class="commentAccepted">';
             echo "<h4>Thank you! <br> Your comment has been submitted.</h4><br>";
-            echo '<a href="../../index.php" class="button cta">Return to Home</a>';
+            echo '<a href="../../home.php" class="button cta">Return to Home</a>';
             echo '</div>';
         } else {
             echo "<h2>Error inserting comment.</h2>";
-            echo '<a href="../../index.php">Return to Home</a>';
+            echo '<a href="../../home.php">Return to Home</a>';
         }
-
         $stmt->close();
         $db->close();
         ?>
