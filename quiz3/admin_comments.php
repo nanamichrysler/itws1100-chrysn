@@ -49,7 +49,7 @@ $result = $db->query($query);
 <html>
 <head>
     <title>Comment Moderation</title>
-    <link rel="stylesheet" href="../resrouces/mySite.css">
+    <link rel="stylesheet" href="../resources/mySite.css">
 </head>
 <body>
     <br>
