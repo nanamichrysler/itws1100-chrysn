@@ -1,11 +1,6 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-
 session_start(); //starts a php session to store log-in info
-include('includes/config.inc.php');
+include('./includes/config.inc.php');
 
 //admin password => only people that know the password can test the comments system
 $ADMIN_PASSWORD = "test123";
@@ -86,5 +81,5 @@ $result = $db->query($query);
     </table>
     <?php 
     endif; 
-    include('includes/footer.php');
+    include('./includes/footer.php');
     ?>
