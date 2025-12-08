@@ -1,0 +1,48 @@
+ChatGPT:
+
+1. This is my task for my quiz: *enter instructions for Quiz 3*. Give me steps to follow to 
+complete it. 
+
+- ChatGPT gave me step by step instructions and tips to complete the coding portion of Quiz 3
+
+- ChatGPT first suggested to change my index.html into a php file to complete the comment feataure. 
+
+2. Why should I switch my index.html to a index.php?
+
+- By changing index.html into a php file, I can directly integrate my php elemetns for the comment 
+feature. If I do not want to switch it, I could link my HTML file to a separate php file with the 
+code for the comment feature. However, by changing it to index.php, the integration of the comment 
+feature is cleaner and more intuitive. 
+
+- I also asked how my directory setup will be impacted (how I created an index.php in Lab 10 to 
+redirect my FQDN to index.html)
+
+    - ChatGPT said to simply update that index.php file and it will get redirected to the index.php 
+    file that replaced the index.html file. It also clarified that there shouldn't be any conflicts 
+    with having 2 index.php files because they're at different places of the directory. 
+
+- I created a temporary copy of index.html in case I changed my mind about switching the index.html 
+file to a php file.
+
+3. Currently when I click submit on my comment submission form, I get redirected to 
+submit_comment.php but I get a "404 not found" error. When I click 'submit' on the form, I want to 
+add that comment to the mySite table in phpMyAdmin right? So should I be getting redirected to the 
+submit_comment.php? I feel like that php file jsut has the functinality to add the newly submitted 
+comment to the mySite table. Correct me if I'm wrong. 
+
+- It was a simple issue of not linking the correct file directory. 
+
+- ChatGPT's answer was not very helpful, as it suggested numerous causes. I was able to find the
+issue on my own after realizing that ChatGPT was essentially going on a tangent. 
+
+* I had a lot of trouble styling my footer (with my contact info) the way I wanted to after 
+changing my index.html to index.php. I prompted ChatGPT and Gemini multiple times, to try to determine
+the cause of the issue. This is just one of the prompts to resolve this issue:
+
+ChatGPT/Gemini
+4. Why is my contact-icons class not at the very bottom of the page and not taking up the entire 
+screen width like it is for all of the other pages besides this one: *copied index.php file* and this
+is mySite.css: *copied css file*
+
+- It took lots of trial and error to clearly articulate what I wanted to accomplish, and get the AI
+model to determine what was not working.

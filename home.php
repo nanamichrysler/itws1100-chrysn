@@ -1,6 +1,7 @@
 <?php 
-include('resources/includes/config.inc.php'); // database configuration 
+include('quiz3/includes/config.inc.php'); // database configuration 
 
+//connect to database
 @$db = new mysqli($GLOBALS['DB_HOST'], $GLOBALS['DB_USERNAME'], $GLOBALS['DB_PASSWORD'], $GLOBALS['DB_NAME']);
 
 if ($db->connect_error) {
@@ -10,7 +11,7 @@ if ($db->connect_error) {
    $dbOk = true;
 }
 
-include('resources/includes/header.php');
+include('quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
 ?>
 
 <div class="banner">
@@ -70,10 +71,10 @@ include('resources/includes/header.php');
     </div>
   </div>
 </section>
-<!--comment form -->
+<!--comment form, generated from ChatGPT -->
 <h4>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h4>
 <div id="commentBox">
-  <form id="commentForm" action="./resources/includes/submit_comment.php" method="POST">
+  <form id="commentForm" action="./quiz3/includes/submit_comment.php" method="POST">
     <div class="comment-fields">
           <input type="text" id="name" name="name" class="comment-field" placeholder="Name" required>
           <input type="email" id="email" name="email" class="comment-field" placeholder="Email" required>
@@ -126,5 +127,4 @@ if ($dbOk) { //connected to database
     www.linkedin.com/in/nanami-chrysler
   </a>
 </div>
-
-<?php include('resources/includes/footer.php') ?>
+<?php include('quiz3/includes/footer.php') ?>
