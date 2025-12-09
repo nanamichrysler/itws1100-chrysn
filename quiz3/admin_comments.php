@@ -26,7 +26,7 @@ if ($db->connect_error) {
     die("Database connection failed: " . $db->connect_error);
 }
 
-//approve comment
+//approve comment - AI assited
 if (isset($_GET['approve'])) {
     $id = intval($_GET['approve']); //contains the id of the commentID to approve
     $stmt = $db->prepare("UPDATE siteComments SET status='approved' WHERE id=?"); //set the comment with the ID to status=approved
@@ -57,7 +57,7 @@ $result = $db->query($query);
     <!--there are no pending comments currently-->
     <?php if ($result->num_rows === 0): ?>
         <p>No pending comments.</p>
-    <?php else: ?> <!--if there are comments, show comment-->
+    <?php else: ?> <!--if there are comments, show comment; AI assisted-->
     <table>
         <tr>
             <th>Name</th> <!--th = table header-->
