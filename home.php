@@ -79,7 +79,7 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
           <input type="text" id="name" name="name" class="comment-field" placeholder="Name" required>
           <input type="email" id="email" name="email" class="comment-field" placeholder="Email" required>
     </div>
-    <textarea name="comment" id="comment" name="comment" class="comment-input" required placeholder="Add a comment..."></textarea>
+    <textarea id="comment" name="comment" class="comment-input" required placeholder="Add a comment..."></textarea>
     <button type="submit" class="comment-submit">Comment</button>
   </form>
 </div>
