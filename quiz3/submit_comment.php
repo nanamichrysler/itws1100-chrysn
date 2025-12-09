@@ -23,7 +23,7 @@
         if ($db->connect_error) {
             die("Database connection failed: " . $db->connect_error);
         }
-
+        //AI-assisted section:
         //get values
         $name = trim($_POST['name']);
         $email = trim($_POST['email']);
@@ -50,7 +50,6 @@
             echo '<p><a href="../home.php">Go Back</a></p>';
             return;
         }
-
         //prepared statementto add comment
         $query = "INSERT INTO siteComments (visitorName, email, comment, status)
                 VALUES (?, ?, ?, 'pending')";
