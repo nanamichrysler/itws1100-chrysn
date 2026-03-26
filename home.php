@@ -39,7 +39,7 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
     <br>
     <br>
     <a href="./labs/labs.html" class="button cta">View Labs</a>
-    <a href="./groupProjects/groupProject.html" class="button cta">View Projects</a>
+    <a href="./projects/project.html" class="button cta">View Projects</a>
     <a href="./contactMe/contactme.html" class="button cta">Get In Touch</a>
   </div>
   <div class="home-right">
