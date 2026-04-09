@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
           {
             "text": "LinkedIn", 
             "link": "https://www.linkedin.com/in/nanami-chrysler/",
-            "icon": "/resources/images/linkedin icon.webp"
+            "icon": "/resources/images/linkedin icon.webp",
+            "target": "blank" 
           }
         ]
       }

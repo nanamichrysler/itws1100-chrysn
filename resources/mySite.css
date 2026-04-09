@@ -19,9 +19,9 @@ a { /*get rid of underscore for clickable logo*/
 
 h1 { /*logo*/
   color: rgb(1, 96, 1);
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 10px;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 h2 { /*ABOUT ME*/
@@ -69,7 +69,6 @@ p {
 
 /*all pages*/
 .banner{
-  background-color: white;
   display:flex;
   justify-content: space-between;
   align-items: center;
@@ -81,6 +80,8 @@ p {
 .nav-links {
   display: flex;
   gap: 10px; /* space between buttons */
+  padding: 10px;
+  color:rgb(0, 70, 0);
 }
 
 .paragraph-small { /*small texts get borders*/
