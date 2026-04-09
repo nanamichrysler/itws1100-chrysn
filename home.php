@@ -20,16 +20,23 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
     <a href="home.php" class="button cta">Home</a> 
     <a href="./aboutMe/aboutme.html" class="button cta">About Me</a>
     <a href="./labs/labs.html" class="button cta">Labs</a>
-    <a href="./projects/project.html" class="button cta">Group Projects</a>
+    <a href="./projects/project.html" class="button cta">Projects</a>
     <a href="./contactMe/contactme.html" class="button cta">Contact Me</a>
   </div>
 </div>
 <div class="home-flex">
   <div class="home-left">
-    <h3>Hi, I'm Nanami!</h3>
-    <h5>ITWS & Cognitive Science • Portfolio Labs</h5>
+    <div class="green">
+      <h5>STUDENT @ RENSSELAER POLYTECHNIC INSTITUTE</h5>
+  </div>
+    <h3>Hello, my name is</h3>
+    <div class="green">
+      <h3>Nanami Chrysler</h3>
+    </div>
     <p class="paragraph-slogan">
-        Exploring the intersection of data & creativity.
+      Class of 2028 pursuing a Dual Degree in Cognitive Science & Information Technology and Web Science, 
+      with a minor in Marketing. Interested in exploring the intersection between human behavior and 
+      technology. Fields of interest include marketing, consulting, and UX/UI.
     </p>
     <p>
       This site showcases my labs from ITWS. Each project applies web development, UX principles,
@@ -113,18 +120,35 @@ if ($dbOk) { //connected to database
 }
 ?>
 <br>
-<div class="contact-icons">
-  <a href="mailto:nanami.jc73@gmail.com">
-    <img src="./resources/images/gmail icon.png" alt="Gmail" class="img-gmail">
-    nanami.jc73@gmail.com
-  </a>
-  <a href="tel:+15302194452">
-    <img src="./resources/images/phone logo.png" alt="Phone" class="img-gmail">
-    (530)-219-4452
-  </a>
-  <a href="https://www.linkedin.com/in/nanami-chrysler" target="_blank">
-    <img src="./resources/images/linkedin icon.webp" alt="LinkedIn" class="img-linkedIn">
-    www.linkedin.com/in/nanami-chrysler
-  </a>
-</div>
+<footer class="footer">
+
+  <!-- Main footer -->
+  <div class="footer-content">
+
+    <!-- About -->
+    <div class="footer-section">
+      <h4>Nanami Chrysler</h4>
+      <p>
+        ITWS & Cognitive Science student focused on web development, UX, and consulting.
+      </p>
+    </div>
+
+    <!-- Classes -->
+    <div class="footer-section">
+      <a href="../classes/classes.html"><h4>Classes</h4></a>
+    </div>
+
+    <!-- Projects -->
+    <div class="footer-section">
+      <a href="../projects/project.html"><h4>Projects</h4></a>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-section">
+      <a href="../contactMe/contactme.html"><h4>Contact Me</h4></a>
+      <p><strong>Email:</strong> nanami.jc73@gmail.com</p>
+      <p><strong>Phone:</strong> (530) 219-4452</p>
+    </div>
+  </div>
+</footer>
 <?php include('./quiz3/includes/footer.php') ?>
