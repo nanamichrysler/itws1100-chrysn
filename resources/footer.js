@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
           {
             "text": "Email", 
             "link": "mailto:nanami.jc73@gmail.com",
-            "icon": "./images/gmail icon.png"
+            "icon": "/iit/resources/images/gmail icon.png"
           },
           {
             "text": "LinkedIn", 
