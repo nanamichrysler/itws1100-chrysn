@@ -33,7 +33,7 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
     <div class="green">
       <h3>Nanami Chrysler</h3>
     </div>
-    <p>
+    <p class="home">
       Class of 2028 pursuing a Dual Degree in Cognitive Science & Information Technology and Web Science, 
       with a minor in Marketing. Interested in exploring the intersection between human behavior and 
       technology. Fields of interest include marketing, consulting, and UX/UI.
@@ -41,35 +41,23 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
     <br>
     <br>
     <br>
-    <a href="./labs/labs.html" class="button cta">View Labs</a>
-    <a href="./projects/project.html" class="button cta">View Projects</a>
-    <a href="./contactMe/contactme.html" class="button cta">Get In Touch</a>
+      <a href="./contactMe/contactme.html" class="button cta">Contact</a>
+      <a href="./projects/project.html" class="button">View Projects</a>
   </div>
   <div class="home-right">
     <img src="./resources/images/headshot.jpg" alt="Headshot" class="img-headshot">
   </div>
 </div>
 <section>
-  <h4>Skills</h4>
-  <div class="projects-grid">
-    <div class="card"><p>Python</p></div>
-    <div class="card"><p>C++</p></div>
-    <div class="card"><p>HTML</p></div>
-    <div class="card"><p>CSS</p></div>
-    <div class="card"><p>Figma</p></div>
-    <div class="card"><p>Canva</p></div>
-    <div class="card"><p>Market Research</p></div>
-    <div class="card"><p>English (native fluency), Japanese (native fluency)</p></div>
-  </div>
   <div class="projects-grid">
     <div class="card">
       <p class="paragraph-home">
-      Take a look at my RSS feed of this site: <a href="./labs/lab04/rss.xml" class="button cta">RSS feed</a>
+      Take a look at my RSS feed of this site: <a href="./labs/lab04/rss.xml" class="button">RSS feed</a>
       </p>
     </div>
     <div class="card">
       <p class="paragraph-home">
-      Take a look at my Atom feed of this site: <a href="./labs/lab04/atom.xml" class="button cta">Atom feed</a>
+      Take a look at my Atom feed of this site: <a href="./labs/lab04/atom.xml" class="button">Atom feed</a>
       </p>
     </div>
   </div>
