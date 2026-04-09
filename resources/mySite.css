@@ -63,6 +63,8 @@ p {
 
 .home p {
   color: grey;
+  padding-top: 10px;
+  font-size: 25px;
 }
 
 /*all pages*/
@@ -712,8 +714,8 @@ pubDate {
   font-size: 15px;
   font-weight: bold;
   color: black;
-  margin: 0 0 5px;
   padding: 0;
+  margin-left: 5px;
 }
 
 .about-tag {

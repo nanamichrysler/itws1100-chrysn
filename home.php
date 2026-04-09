@@ -115,12 +115,9 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
   <hr class="about-divider">
 
   <p class="about-section-label">Photos</p>
-  <div class="about-photos">
     <img src="./resources/images/athletic headshot.JPG" alt="Professional headshot">
     <img src="./resources/images/action shot.JPG" alt="Athletic headshot">
     <img src="./resources/images/awards.JPEG" alt="Induction Ceremony to EDS and Gamma Nu Eta">
-  </div>
-
 </div>
 <!--comment form, assisted by ChatGPT -->
 <h4>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h4>
