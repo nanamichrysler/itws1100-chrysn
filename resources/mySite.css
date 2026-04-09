@@ -721,14 +721,14 @@ pubDate {
   font-size: 13px;
   padding: 4px 12px;
   border-radius: 999px;
-  margin: 30 0 5px;
+  margin: 30px 0 5px;
   background: #e8f5ee;
-  color: #63AC7F;
+  color: black;
 }
 
 .about-tag.blue {
-  background: #e6f1fb;
-  color: #63AC7F;
+  background: #63AC7F;
+  color: black;
 }
 
 .about-divider {
