@@ -4,7 +4,7 @@ html {
 
 /*texts*/
 body {
-  background-color: F9FAFF;
+  background-color: #F9FAFF;
   font-family: 'Playfair Display', serif;
   margin: 0;
   position: relative;
@@ -37,11 +37,12 @@ h3 { /*Home Page*/
   font-size: 60px;
   color: black;
   padding: 0;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .green {
-  color: 63AC7F;
+  color: #63AC7F;
 }
 
 h4 { /*contact me*/
@@ -51,10 +52,11 @@ h4 { /*contact me*/
   margin: 0;
 }
 
-h5 { /*ITWS & Cognitive Science • Portfolio Labs*/
-  font-size: 25px;
+h5 { /*STUDENT @ RENSSELAER POLYTECHNIC INSTITUTE*/
+  font-size: 20px;
   padding: 0;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 p {
@@ -241,7 +243,7 @@ p {
 
 /*Images*/
 .img-headshot { /*headshot image for Home Page*/
-  width: 325px; 
+  width: 500px; 
   height: auto; /*height will adjust proportionally*/
   border-radius: 20px;
 }

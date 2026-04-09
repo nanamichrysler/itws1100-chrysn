@@ -33,14 +33,10 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
     <div class="green">
       <h3>Nanami Chrysler</h3>
     </div>
-    <p class="paragraph-slogan">
+    <p>
       Class of 2028 pursuing a Dual Degree in Cognitive Science & Information Technology and Web Science, 
       with a minor in Marketing. Interested in exploring the intersection between human behavior and 
       technology. Fields of interest include marketing, consulting, and UX/UI.
-    </p>
-    <p>
-      This site showcases my labs from ITWS. Each project applies web development, UX principles,
-      and interactive design.
     </p>
     <br>
     <br>
