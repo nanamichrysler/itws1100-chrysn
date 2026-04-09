@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
           {
             "text": "Email", 
             "link": "mailto:nanami.jc73@gmail.com",
-            "icon": img.src = "/resources/images/gmail icon.png"
+            "icon": "/resources/images/gmail icon.png"
           },
           {
             "text": "LinkedIn", 
             "link": "https://www.linkedin.com/in/nanami-chrysler/",
-            "icon": img.src = "/resources/images/linkedin icon.webp"
+            "icon": "/resources/images/linkedin icon.webp"
           }
         ]
       }
