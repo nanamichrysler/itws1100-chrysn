@@ -165,34 +165,6 @@ if ($dbOk) { //connected to database
 ?>
 <br>
 <footer class="footer">
-
-  <!-- Main footer -->
-  <div class="footer-content">
-
-    <!-- About -->
-    <div class="footer-section">
-      <h4>Nanami Chrysler</h4>
-      <p>
-        ITWS & Cognitive Science student focused on web development, UX, and consulting.
-      </p>
-    </div>
-
-    <!-- Classes -->
-    <div class="footer-section">
-      <a href="../classes/classes.html"><h4>Classes</h4></a>
-    </div>
-
-    <!-- Projects -->
-    <div class="footer-section">
-      <a href="../projects/project.html"><h4>Projects</h4></a>
-    </div>
-
-    <!-- Contact -->
-    <div class="footer-section">
-      <a href="../contactMe/contactme.html"><h4>Contact Me</h4></a>
-      <p><strong>Email:</strong> nanami.jc73@gmail.com</p>
-      <p><strong>Phone:</strong> (530) 219-4452</p>
-    </div>
-  </div>
+      <div class="footer-content" id="footer-content"></div>
 </footer>
 <?php include('./quiz3/includes/footer.php') ?>
