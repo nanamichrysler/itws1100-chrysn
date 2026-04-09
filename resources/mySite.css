@@ -680,39 +680,6 @@ pubDate {
   padding: 40px 20px;
 }
 
-.about-bio-card {
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 12px 20px rgba(0,0,0,0.08);
-  padding: 25px;
-  display: flex;
-  gap: 25px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-
-.about-bio-card img {
-  width: 120px;
-  height: 120px;
-  border-radius: 12px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.about-bio-text h3 {
-  font-size: 24px;
-  margin: 0 0 6px;
-  color: #63AC7F;
-}
-
-.about-bio-text p {
-  font-size: 15px;
-  color: grey;
-  padding: 0;
-  margin: 0;
-  line-height: 1.7;
-}
-
 .about-section-label {
   font-size: 12px;
   letter-spacing: 0.08em;
@@ -745,7 +712,7 @@ pubDate {
   font-size: 15px;
   font-weight: bold;
   color: black;
-  margin: 0;
+  margin: 0 0 5px;
   padding: 0;
 }
 
@@ -754,14 +721,14 @@ pubDate {
   font-size: 13px;
   padding: 4px 12px;
   border-radius: 999px;
-  margin: 3px 3px 3px 0;
+  margin: 30 0 5px;
   background: #e8f5ee;
-  color: #3B6D11;
+  color: #63AC7F;
 }
 
 .about-tag.blue {
   background: #e6f1fb;
-  color: #185FA5;
+  color: #63AC7F;
 }
 
 .about-divider {

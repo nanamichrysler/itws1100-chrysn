@@ -49,16 +49,6 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
   </div>
 </div>
 <div class="about-section">
-
-  <div class="about-bio-card">
-    <img src="./resources/images/headshot.jpg" alt="Headshot">
-    <div class="about-bio-text">
-      <h3>Nanami Chrysler</h3>
-      <p>Class of 2028 pursuing a Dual Degree in Cognitive Science & ITWS, 
-      with a minor in Marketing...</p>
-    </div>
-  </div>
-
   <p class="about-section-label">Background</p>
   <div class="about-cards-row">
     <div class="about-card">
@@ -67,7 +57,7 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
     </div>
     <div class="about-card">
       <p class="about-card-label">Graduation</p>
-      <p class="about-card-value">Class of 2028</p>
+      <p class="about-card-value">Class of 2028 </p>
     </div>
   </div>
 
@@ -89,6 +79,11 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
       <span class="about-tag">ACM-W</span>
       <span class="about-tag">SASE</span>
     </div>
+    <div class="about-card">
+      <p class="about-card-label">Achievements</p>
+      <p class="about-card-value">Epsilon Delta Sigma</p>
+      <p class="about-card-value">Gamma Nu Eta</p>     
+    </div>
   </div>
 
   <hr class="about-divider">
@@ -96,20 +91,34 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
   <p class="about-section-label">Skills</p>
   <div class="about-card">
     <p class="about-card-label">Technical</p>
-    <span class="about-tag blue">Python</span>
-    <span class="about-tag blue">C++</span>
     <span class="about-tag blue">HTML</span>
     <span class="about-tag blue">CSS</span>
+    <span class="about-tag blue">SQL</span>
+    <span class="about-tag blue">Python</span>
+    <span class="about-tag blue">C++</span>
+    <span class="about-tag blue">C</span>
+    <span class="about-tag blue">JavaScript</span>
+    <span class="about-tag blue">jQuery</span>
+    <span class="about-tag blue">R</span>
+
+    <p class="about-card-label">Tools</p>
     <span class="about-tag blue">Figma</span>
+    <span class="about-tag blue">Balsamiq</span>
+    <span class="about-tag blue">Microsoft 365 Suite</span>
+    <span class="about-tag blue">Google Suite</span>
+    <span class="about-tag blue">Canva</span>
+    <span class="about-tag blue">Latex</span>
+    <span class="about-tag blue">Mailchimp</span>
+    <span class="about-tag blue">HubSpot</span>
   </div>
 
   <hr class="about-divider">
 
   <p class="about-section-label">Photos</p>
   <div class="about-photos">
-    <img src="./resources/images/headshot.jpg" alt="Professional headshot">
-    <img src="./resources/images/athletic-headshot.jpg" alt="Athletic headshot">
-    <img src="./resources/images/another.jpg" alt="...">
+    <img src="./resources/images/athletic headshot.JPG" alt="Professional headshot">
+    <img src="./resources/images/action shot.JPG" alt="Athletic headshot">
+    <img src="./resources/images/awards.JPEG" alt="Induction Ceremony to EDS and Gamma Nu Eta">
   </div>
 
 </div>
