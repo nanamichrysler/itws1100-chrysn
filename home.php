@@ -48,20 +48,71 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
     <img src="./resources/images/headshot.jpg" alt="Headshot" class="img-headshot">
   </div>
 </div>
-<section>
-  <div class="projects-grid">
-    <div class="card">
-      <p class="paragraph-home">
-      Take a look at my RSS feed of this site: <a href="./labs/lab04/rss.xml" class="button">RSS feed</a>
-      </p>
-    </div>
-    <div class="card">
-      <p class="paragraph-home">
-      Take a look at my Atom feed of this site: <a href="./labs/lab04/atom.xml" class="button">Atom feed</a>
-      </p>
+<div class="about-section">
+
+  <div class="about-bio-card">
+    <img src="./resources/images/headshot.jpg" alt="Headshot">
+    <div class="about-bio-text">
+      <h3>Nanami Chrysler</h3>
+      <p>Class of 2028 pursuing a Dual Degree in Cognitive Science & ITWS, 
+      with a minor in Marketing...</p>
     </div>
   </div>
-</section>
+
+  <p class="about-section-label">Background</p>
+  <div class="about-cards-row">
+    <div class="about-card">
+      <p class="about-card-label">Hometown</p>
+      <p class="about-card-value">Davis, CA</p>
+    </div>
+    <div class="about-card">
+      <p class="about-card-label">Graduation</p>
+      <p class="about-card-value">Class of 2028</p>
+    </div>
+  </div>
+
+  <hr class="about-divider">
+
+  <p class="about-section-label">Extracurriculars</p>
+  <div class="about-cards-row">
+    <div class="about-card">
+      <p class="about-card-label">Athletics</p>
+      <p class="about-card-value">Women's Varsity Swim & Dive</p>
+    </div>
+    <div class="about-card">
+      <p class="about-card-label">Greek life</p>
+      <p class="about-card-value">Alpha Phi Fraternity</p>
+    </div>
+    <div class="about-card">
+      <p class="about-card-label">Clubs</p>
+      <span class="about-tag">Rensselaer Consulting Club</span>
+      <span class="about-tag">ACM-W</span>
+      <span class="about-tag">SASE</span>
+    </div>
+  </div>
+
+  <hr class="about-divider">
+
+  <p class="about-section-label">Skills</p>
+  <div class="about-card">
+    <p class="about-card-label">Technical</p>
+    <span class="about-tag blue">Python</span>
+    <span class="about-tag blue">C++</span>
+    <span class="about-tag blue">HTML</span>
+    <span class="about-tag blue">CSS</span>
+    <span class="about-tag blue">Figma</span>
+  </div>
+
+  <hr class="about-divider">
+
+  <p class="about-section-label">Photos</p>
+  <div class="about-photos">
+    <img src="./resources/images/headshot.jpg" alt="Professional headshot">
+    <img src="./resources/images/athletic-headshot.jpg" alt="Athletic headshot">
+    <img src="./resources/images/another.jpg" alt="...">
+  </div>
+
+</div>
 <!--comment form, assisted by ChatGPT -->
 <h4>What Did You Think of My Website? Please Share Your Thoughts in the Comments!</h4>
 <div id="commentBox">
