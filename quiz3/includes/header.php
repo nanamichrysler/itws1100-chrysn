@@ -11,3 +11,5 @@
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
   </head>
   <body>
+    <div id="header"></div>
+    <script src="/resources/header.js"></script>
