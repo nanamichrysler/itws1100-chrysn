@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
           {
             "text": "LinkedIn", 
             "link": "https://www.linkedin.com/in/nanami-chrysler/",
-            "icon": "./images/linkedin icon.webp",
+            "icon": "/iit/resources/images/linkedin icon.webp",
             "target": "blank" 
           }
         ]
