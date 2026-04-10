@@ -5,24 +5,24 @@ document.addEventListener('DOMContentLoaded', () => {
     "sections": [
       {
         "title": "Nanami Chrysler",
-        "link": "../home.php",
+        "link": "/iit/home.php",
         "content": [
           "ITWS & Cognitive Science student focused on web development, UX, and consulting."
         ]
       },
       {
         "title": "Classes",
-        "link": "../classes/classes.html",
+        "link": "/iit/classes/classes.html",
         "content": []
       },
       {
         "title": "Projects",
-        "link": "../projects/project.html",
+        "link": "/iit/projects/project.html",
         "content": []
       },
       {
         "title": "Contact Me",
-        "link": "../contactMe/contactme.html",
+        "link": "iit/contactMe/contactme.html",
         "content": [
           {
             "text": "Email", 
