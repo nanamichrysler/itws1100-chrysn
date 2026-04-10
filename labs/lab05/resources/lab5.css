@@ -29,9 +29,9 @@ fieldset {
 }
 
 .field {
-   width: 120px;
+   width: auto;
    margin: 0 0.5em 0.5em 0;
-   float: left;
+   float: none;
    clear: left;
    text-align: left;
 }

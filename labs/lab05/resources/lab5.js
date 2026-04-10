@@ -23,16 +23,6 @@ function validate(formObj) {
       }
    }
 
-   /*
-   if (formObj.title.value == "") {
-      errors += "You must enter a title\n";
-      if (focus == false) {
-         formObj.title.focus();
-         focus = true;
-      }
-   }
-   */
-
    if (formObj.org.value == "") {
       errors += "You must enter an organization\n";
       if (focus == false) {
@@ -40,16 +30,6 @@ function validate(formObj) {
          focus = true;
       }
    }
-
-   /*
-   if (formObj.pseudonym.value == "") {
-      errors += "You must enter a nickname (type N/A if you don't have any)\n";
-      if (focus == false) {
-         formObj.pseudonym.focus();
-         focus = true;
-      } 
-   }
-   */
 
    if (formObj.comments.value == "" || formObj.comments.value == "Please enter your comments") {
       errors += "You must enter a comment (type N/A if you don't have any)";
@@ -96,16 +76,6 @@ function validate(formObj) {
       }
    }
 
-   /*
-   if (formObj.title.value == "") {
-      errors += "You must enter a title\n";
-      if (focus == false) {
-         formObj.title.focus();
-         focus = true;
-      }
-   }
-   */
-
    if (formObj.org.value == "") {
       errors += "You must enter an organization\n";
       if (focus == false) {
@@ -113,16 +83,6 @@ function validate(formObj) {
          focus = true;
       }
    }
-
-   /*
-   if (formObj.pseudonym.value == "") {
-      errors += "You must enter a nickname (type N/A if you don't have any)\n";
-      if (focus == false) {
-         formObj.pseudonym.focus();
-         focus = true;
-      } 
-   }
-   */
 
    if (formObj.comments.value == "" || formObj.comments.value == "Please enter your comments") {
       errors += "You must enter a comment (type N/A if you don't have any)";
@@ -155,29 +115,5 @@ function putText() { //for comments button
    if (comment.value == "") {
       comment.value = "Please enter your comments";
       text = false;
-   }
-}
-
-function getName(){ //for last button
-   var fName = document.getElementById("firstName").value;
-   var lName = document. getElementById("lastName").value;
-   var nickname = document.getElementById("pseudonym").value;
-
-   if (fName && lName && nickname != "") {
-      alert(fName + " " + lName + " is " + nickname);
-   } else {
-      alert("Please fill out all of the fields")
-   }
-}
-
-function getName(){ //for last button
-   var fName = document.getElementById("firstName").value;
-   var lName = document. getElementById("lastName").value;
-   var nickname = document.getElementById("pseudonym").value;
-
-   if (fName && lName && nickname != "") {
-      alert(fName + " " + lName + " is " + nickname);
-   } else {
-      alert("Please fill out all of the fields")
    }
 }
