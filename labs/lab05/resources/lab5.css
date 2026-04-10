@@ -7,7 +7,8 @@ body {
 }
 
 #bodyBlock {
-   width: 700px;
+   width: 100%;
+   max-width: 700px;
    margin: auto;
    padding: 20px;
    border-radius: 10px;
@@ -26,21 +27,28 @@ fieldset {
    padding-top: 1em;
 }
 
+
 .field {
-   width: 120px;
-   margin: 0 0.5em 0.5em 0;
-   float: left;
-   clear: left;
-   text-align: right;
+  display: block;
+  text-align: left;
+  margin-bottom: 4px;
+  width: auto;
+  float: none;
+  clear: none;
 }
 
 .value {
-   margin: 0 0 0.5em 0;
+  margin-bottom: 12px;
 }
 
 #save {
    float: right;
    border-radius: 3px;
+}
+
+#save:hover {
+  background-color: rgb(0, 70, 0);
+  color: white;
 }
 
 button {
@@ -53,4 +61,9 @@ input:focus { /*add background color for field sections*/
 
 textarea:focus { /*add background color for comments section*/
    background-color: #fee;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  box-sizing: border-box;
 }
