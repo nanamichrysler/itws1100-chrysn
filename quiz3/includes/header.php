@@ -10,4 +10,4 @@
   </head>
   <body>
     <div id="header"></div>
-    <script src="/resources/header.js"></script>
+    <script src="/iit/resources/header.js"></script>
