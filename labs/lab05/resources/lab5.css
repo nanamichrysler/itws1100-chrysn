@@ -26,6 +26,7 @@ body {
 fieldset {
    padding-top: 1em;
    width: 100%;
+   box-sizing: border-box;
 }
 
 .field {
