@@ -23,6 +23,7 @@ function validate(formObj) {
       }
    }
 
+   /*
    if (formObj.title.value == "") {
       errors += "You must enter a title\n";
       if (focus == false) {
@@ -30,6 +31,7 @@ function validate(formObj) {
          focus = true;
       }
    }
+   */
 
    if (formObj.org.value == "") {
       errors += "You must enter an organization\n";
@@ -39,6 +41,7 @@ function validate(formObj) {
       }
    }
 
+   /*
    if (formObj.pseudonym.value == "") {
       errors += "You must enter a nickname (type N/A if you don't have any)\n";
       if (focus == false) {
@@ -46,6 +49,7 @@ function validate(formObj) {
          focus = true;
       } 
    }
+   */
 
    if (formObj.comments.value == "" || formObj.comments.value == "Please enter your comments") {
       errors += "You must enter a comment (type N/A if you don't have any)";
@@ -92,6 +96,7 @@ function validate(formObj) {
       }
    }
 
+   /*
    if (formObj.title.value == "") {
       errors += "You must enter a title\n";
       if (focus == false) {
@@ -99,6 +104,7 @@ function validate(formObj) {
          focus = true;
       }
    }
+   */
 
    if (formObj.org.value == "") {
       errors += "You must enter an organization\n";
@@ -108,6 +114,7 @@ function validate(formObj) {
       }
    }
 
+   /*
    if (formObj.pseudonym.value == "") {
       errors += "You must enter a nickname (type N/A if you don't have any)\n";
       if (focus == false) {
@@ -115,6 +122,7 @@ function validate(formObj) {
          focus = true;
       } 
    }
+   */
 
    if (formObj.comments.value == "" || formObj.comments.value == "Please enter your comments") {
       errors += "You must enter a comment (type N/A if you don't have any)";
