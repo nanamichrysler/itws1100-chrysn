@@ -5,19 +5,15 @@
     </title>
     <link rel="stylesheet" href="../../resources/mySite.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../labs/lab08/resources/lab08.js"></script>
+    <script type="text/javascript" src="../../resources/footer.js"></script>
   </head>
   <body>
-    <div class="banner">
-      <a href="../../home.php"><h1>Nanami Chrysler</h1></a>
-      <div class="nav-links">
-        <a href="../../home.php" class="button cta">Home</a>
-        <a href="../../aboutMe/aboutme.html" class="button cta">About Me</a>
-        <a href="../../classes/classes.html" class="button cta">Classes</a>
-        <a href="../../projects/project.html" class="button cta">Projects</a>
-        <a href="../../contactMe/contactme.html" class="button cta">Contact Me</a>
-        <br><br>
-      </div>
-    </div>
+    <div id="header"></div>
+    <script src="../resources/header.js"></script>
     <a href="../labs.html" class="button back">Go Back</a>
     <div class="projects-grid">
       <div class="card">
@@ -37,35 +33,7 @@
         <a href="./resources/chrysn-lab1-HelloWorld.pdf" class="button cta">Click Here to Open The Full PDF</a>      
     </div>
     <footer class="footer">
-
-      <!-- Main footer -->
-      <div class="footer-content">
-
-        <!-- About -->
-        <div class="footer-section">
-          <h4>Nanami Chrysler</h4>
-          <p>
-            ITWS & Cognitive Science student focused on web development, UX, and consulting.
-          </p>
-        </div>
-
-        <!-- Classes -->
-        <div class="footer-section">
-          <a href="../classes/classes.html"><h4>Classes</h4></a>
-        </div>
-
-        <!-- Projects -->
-        <div class="footer-section">
-          <a href="../projects/project.html"><h4>Projects</h4></a>
-        </div>
-
-        <!-- Contact -->
-        <div class="footer-section">
-          <a href="../contactMe/contactme.html"><h4>Contact Me</h4></a>
-          <p><strong>Email:</strong> nanami.jc73@gmail.com</p>
-          <p><strong>Phone:</strong> (530) 219-4452</p>
-        </div>
-      </div>
+      <div class="footer-content" id="footer-content"></div>
     </footer>
   </body>
 </html>

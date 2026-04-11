@@ -549,6 +549,19 @@ h6 { /* "CONTACT" section label */
   font-size: 22px;
 }
 
+.class-card h4,
+.class-card-with-link h4 {
+  font-size: 15px;
+}
+
+.class-card,
+.class-card-with-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers everything horizontally */
+  text-align: center;    /* centers text */
+}
+
 .class-card p {
   font-size: 16px;
   padding: 0;
