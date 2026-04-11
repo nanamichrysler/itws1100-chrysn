@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="banner">
       <a href="/iit/home.php"><h1>Nanami Chrysler</h1></a>
       <div class="nav-links">
-        <a href="/iit/resume/resume.html">Resume</a>
         <a href="/iit/classes/classes.html">Classes</a>
         <a href="/iit/projects/project.html">Projects</a>
         <a href="/iit/contactMe/contactme.html">Contact Me</a>
