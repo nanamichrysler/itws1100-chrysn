@@ -64,15 +64,16 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
       <p class="about-card-value">Alpha Phi Fraternity</p>
     </div>
     <div class="about-card">
-      <p class="about-card-label">Clubs</p>
+      <p class="about-card-label">Clubs/Organizations</p>
       <span class="about-tag">Rensselaer Consulting Club</span>
       <span class="about-tag">ACM-W</span>
-      <span class="about-tag">SASE</span>
+      <span class="about-tag">I-Persist Mentoring</span>
     </div>
     <div class="about-card">
       <p class="about-card-label">Achievements</p>
-      <p class="about-card-value">Epsilon Delta Sigma</p>
-      <p class="about-card-value">Gamma Nu Eta</p>     
+        <p class="about-card-value">Dean's Honor List (Fall 2024 - Present)</p>
+        <p class="about-card-value">Epsilon Delta Sigma</p>
+        <p class="about-card-value">Gamma Nu Eta</p>     
     </div>
   </div>
 
