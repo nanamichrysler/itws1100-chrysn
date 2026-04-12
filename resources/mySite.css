@@ -527,7 +527,12 @@ h6 { /* "CONTACT" section label */
   color: black;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center; /* add this */
+
 }
 
 .class-card-with-link {
@@ -538,9 +543,14 @@ h6 { /* "CONTACT" section label */
   color: black;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
-  display: block;
+  display: flex;
   position: relative;        /* needed for the link to position inside */
   padding-bottom: 2.5rem;    /* make room for the link at the bottom */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center; /* add this */
+
 }
 
 .class-card h3 {
@@ -554,17 +564,11 @@ h6 { /* "CONTACT" section label */
   font-size: 15px;
 }
 
-.class-card,
-.class-card-with-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;   /* centers everything horizontally */
-  text-align: center;    /* centers text */
-}
-
-.class-card p {
+.class-card p,
+.class-card-with-link p {
   font-size: 16px;
   padding: 0;
+  text-align: center;
 }
 
 .class-card:hover {
