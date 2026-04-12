@@ -412,7 +412,7 @@ h6 { /* "CONTACT" section label */
   content: "";
   position: absolute;
   width: 6px;
-  background-color: #444;
+  background-color: #63AC7F;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -436,8 +436,8 @@ h6 { /* "CONTACT" section label */
   top: 35px;
   width: 18px;
   height: 18px;
-  background-color: #63AC7F;
-  border: 4px solid #63AC7F;
+  background-color: rgb(1, 96, 1);
+  border: 4px solid rgb(1, 96, 1);
   border-radius: 50%;
   z-index: 2;
 }
