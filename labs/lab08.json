@@ -3,26 +3,26 @@
       { 
          "number": "Lab 01",
          "title": "Set Up",
-         "description": "In Lab 1, I established the foundational <strong>development environment</strong>. We configured file servers on <strong> Microsoft Azure</strong>, created <strong>GitHub accounts</strong>, and integrated our <strong>local machines with remote servers</strong> and repositories to enable <strong>version-controlled web development</strong>.",
-         "link": "../labs/lab01/lab01.html"
+         "description": "In Lab 1, I established the foundational <strong>development environment</strong>. We configured file servers on <strong> Microsoft Azure</strong>, created <strong>GitHub accounts</strong>, and integrated our <strong>local machines with remote servers</strong> and repositories to enable <strong>version-controlled web development</strong>."
       },
       {
          "number": "Lab 02",
          "title": "Resume",
-         "description": "In Lab 2, I used <strong>HTML</strong> and <strong>CSS</strong> to create a resume. I also organized my local repository structures, and practiced <strong>committing, pushing, and deploying</strong> files from my local enviornment to the Azure web server using GitHub Desktop.",
-         "link": "../labs/lab02/lab02.html"
+         "description": "In Lab 2, I used <strong>HTML</strong> and <strong>CSS</strong> to create a resume. I also organized my local repository structures, and practiced <strong>committing, pushing, and deploying</strong> files from my local enviornment to the Azure web server using GitHub Desktop."
       },
       {
          "number": "Lab 03",
          "title": "Website",
-         "description": "In Lab 3, I deisgned and deployed this website. I used <strong>HTMl</strong> and <strong>CSS</strong> to implement consistent navigation and layout elements that reflect my personal style. I also practiced good DevOps using <strong>Git branching</strong>, which allows developers to safely experiment with new changes without affecting the main version of their code.",
-         "link": "../labs/lab03/lab03.html"
+         "description": "In Lab 3, I deisgned and deployed this website. I used <strong>HTML</strong> and <strong>CSS</strong> to implement consistent navigation and layout elements that reflect my personal style. I also practiced good DevOps using <strong>Git branching</strong>, which allows developers to safely experiment with new changes without affecting the main version of their code."
       },
       {
          "number": "Lab 04",
          "title": "RSS & Atom",
          "description": "In Lab 4, I created an <strong>RSS feed</strong> and <strong>Atom feed</strong> for my website. I developed a valid <strong>XML</strong>document containing links to labs and integrated the feed into my homepage.",
-         "link": "../labs/lab04/lab04.html"
+         "link": "../labs/lab04/rss.xml",
+         "linkLabel": "View RSS Feed",
+         "secondLink": "../labs/lab04/atom.xml",
+         "secondLinkLabel": "View Atom Feed" 
       },
       {
          "number": "Lab 05",

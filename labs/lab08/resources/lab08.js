@@ -17,6 +17,12 @@ $(document).ready(function() {
 				// expandable section — this div is required for toggleCard to work
 				output += '<div class="card-details">';
 				output += '<p>' + (item.description || '') + '</p>';
+				if (item.link) {
+					output += '<a class="button" href="' + item.link + '" target="_blank">' + (item.linkLabel || 'Visit Lab ↗') + '</a>';
+				}
+				if (item.externalLink) {
+					output += '<a class="button" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel || 'View on GitHub ↗') + '</a>';
+				}
 				output += '</div>';
 				
 				output += '<div style="height: 28px;"></div>';
