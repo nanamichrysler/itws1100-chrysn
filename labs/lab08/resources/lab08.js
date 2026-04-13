@@ -6,24 +6,31 @@ $(document).ready(function() {
    	 	dataType: "json",
    	 	success: function(responseData, status){
    	  		var output = '';  
-			var searchData = []; //list of lab titles
-            var linkMap = {}; //title => link
+			var searchData = [];
+            var linkMap = {};
 
     	 	$.each(responseData.projectItem, function(i, item) {
-				output += '<div class="card"><a href= "' + item.link + '"><h3>' + item.number + '</h3>';
-				output += '</a>';
+				output += '<div class="card">';
+				output += '<h3>' + item.number + '</h3>';
 				output += '<p>' + item.title + '</p>';
+				
+				// expandable section
+				output += '<div class="card-details">';
+				output += '<a class="button" href="' + item.link + '">Visit Lab</a>';
+				output += '</div>';
+				
+				output += '<div style="height: 28px;"></div>';
+				output += '<button class="card-toggle" onclick="toggleCard(this)">Learn more ▾</button>';
 				output += '</div>';
 
-				searchData.push(item.title); // lab title
-				searchData.push(item.number); //lab number
-
+				searchData.push(item.title);
+				searchData.push(item.number);
 				linkMap[item.title] = item.link;
 				linkMap[item.number] = item.link;
       		});
 			$('#lab-list').html(output);
 
-			$("#lab-search").autocomplete({ //created a search bar to search for labs
+			$("#lab-search").autocomplete({
                 source: searchData,
                 select: function(event, ui) {
                     window.location.href = linkMap[ui.item.value];
@@ -31,8 +38,13 @@ $(document).ready(function() {
             });
         },
 		error: function(msg) {
-			// there was a problem
 			alert("There was a problem: " + msg.status + " " + msg.statusText);
     	}
 	});
 });
+
+function toggleCard(btn) {
+	const details = $(btn).closest('.card').find('.card-details')[0];
+	const isOpen = $(details).toggleClass('open').hasClass('open');
+	btn.textContent = isOpen ? 'Show less ▴' : 'Learn more ▾';
+}

@@ -57,7 +57,10 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
   <div class="about-cards-row">
     <div class="about-card">
       <p class="about-card-label">Athletics</p>
-      <p class="about-card-value">Women's Varsity Swim & Dive</p>
+      <p class="about-card-value">
+        Women's Varsity <br>
+        Swim & Dive
+      </p>
     </div>
     <div class="about-card">
       <p class="about-card-label">Greek life</p>
