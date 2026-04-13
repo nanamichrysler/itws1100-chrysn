@@ -71,7 +71,10 @@ include('./quiz3/includes/header.php'); //includes links to CSS, Java, jQuery
     </div>
     <div class="about-card">
       <p class="about-card-label">Achievements</p>
-        <p class="about-card-value">Dean's Honor List (Fall 2024 - Present)</p>
+        <p class="about-card-value">
+          Dean's Honor List <br>
+          (Fall 2024 - Present)
+        </p>
         <p class="about-card-value">Epsilon Delta Sigma</p>
         <p class="about-card-value">Gamma Nu Eta</p>     
     </div>
