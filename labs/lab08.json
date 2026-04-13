@@ -3,51 +3,61 @@
       { 
          "number": "Lab 01",
          "title": "Set Up",
+         "description": "In Lab 1, I established the foundational <strong>development environment</strong>. We configured file servers on <strong> Microsoft Azure</strong>, created <strong>GitHub accounts</strong>, and integrated our <strong>local machines with remote servers</strong> and repositories to enable <strong>version-controlled web development</strong>.",
          "link": "../labs/lab01/lab01.html"
       },
       {
          "number": "Lab 02",
          "title": "Resume",
+         "description": "In Lab 2, I used <strong>HTML</strong> and <strong>CSS</strong> to create a resume. I also organized my local repository structures, and practiced <strong>committing, pushing, and deploying</strong> files from my local enviornment to the Azure web server using GitHub Desktop.",
          "link": "../labs/lab02/lab02.html"
       },
       {
          "number": "Lab 03",
          "title": "Website",
+         "description": "In Lab 3, I deisgned and deployed this website. I used <strong>HTMl</strong> and <strong>CSS</strong> to implement consistent navigation and layout elements that reflect my personal style. I also practiced good DevOps using <strong>Git branching</strong>, which allows developers to safely experiment with new changes without affecting the main version of their code.",
          "link": "../labs/lab03/lab03.html"
       },
       {
          "number": "Lab 04",
          "title": "RSS & Atom",
+         "description": "In Lab 4, I created an <strong>RSS feed</strong> and <strong>Atom feed</strong> for my website. I developed a valid <strong>XML</strong>document containing links to labs and integrated the feed into my homepage.",
          "link": "../labs/lab04/lab04.html"
       },
       {
          "number": "Lab 05",
          "title": "Contact Info Form",
+         "description": "In Lab 5, I built an interactive HTML form using <strong>JavaScript</strong>. I implemented input validation, dynamic text behavior, and user feedback alerts to improve usability.",
          "link": "../labs/lab05/lab05.html"
       },
       {
          "number": "Lab 06",
          "title": "jQuery",
+         "description": "In Lab 6, I practiced using <strong>jQuery</strong> to create dynamic web intereactions. I built interactive elements such as animated text, clickable lists, and a functional image gallery while learning how to use <strong>event delegation</strong> and <strong>DOM manipulation</strong> effectively.",
          "link": "../labs/lab06/lab06.html"
       },
       {
          "number": "Lab 07",
          "title": "Group Project Mockup",
+         "description": "In Lab 7, I created a <strong>prototype</strong> of the website I plan to create for my group project using <strong>Balsamiq</strong>. Prototypes are used to explore and test design ideas quickly and receive feedback. In this way, we can make edits based on what we can see in our prototype, rather than make edits as we create the final product.",
          "link": "../labs/lab07/lab07.html"
       },
       {
          "number": "Lab 08",
          "title": "JavaScript, JSON and AJAX",
+         "description": "In Lab 8, I created a <strong>JSON</strong> file for my labs. I used the <strong>AJAX</strong> method to read my JSON file and dynamically create my lab cards for my Labs landing page.",
          "link": "../labs/lab08/lab08.html"
       },
       {
          "number": "Lab 09",
          "title": "PHP & MySQL",
+         "description": "In Lab 9, I created and managed a <strong>MySQL database</strong> and connected it to <strong>PHP</strong> pages to display data from my tables. I built an actors and movies table and wrote PHP pages to interact with these tables. I practiced <strong>MySQL</strong>, <strong>PHP</strong>, and dynamic <strong>database-driven</strong> webpages.",
          "link": "../labs/lab09/lab09.html"
       },
       {
          "number": "Lab 10",
          "title": "Deployment",
+         "description": "In Lab 10, I moved my website from development to <strong>production</strong>. I <strong>secured</strong> sensitive labs (Lab 1 & Lab 9) while removing security from public-facing pages.",
          "link": "../labs/lab10/lab10.html"
       }
    ]

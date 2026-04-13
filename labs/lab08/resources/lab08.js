@@ -14,9 +14,9 @@ $(document).ready(function() {
 				output += '<h3>' + item.number + '</h3>';
 				output += '<p>' + item.title + '</p>';
 				
-				// expandable section
+				// expandable section — this div is required for toggleCard to work
 				output += '<div class="card-details">';
-				output += '<a class="button" href="' + item.link + '">Visit Lab</a>';
+				output += '<p>' + (item.description || '') + '</p>';
 				output += '</div>';
 				
 				output += '<div style="height: 28px;"></div>';
@@ -27,7 +27,7 @@ $(document).ready(function() {
 				searchData.push(item.number);
 				linkMap[item.title] = item.link;
 				linkMap[item.number] = item.link;
-      		});
+			});
 			$('#lab-list').html(output);
 
 			$("#lab-search").autocomplete({
