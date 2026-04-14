@@ -18,10 +18,10 @@ $(document).ready(function() {
 				output += '<div class="card-details">';
 				output += '<p>' + (item.description || '') + '</p>';
 				output += '<div class="button-labs-container">';
-				if (item.link) {
+				if (item.linkLabel) {
 					output += '<a class="button-labs" href="' + item.link + '" target="_blank">' + (item.linkLabel) + '</a>';
 				}
-				if (item.secondLink) {
+				if (item.secondLabel) {
 					output += '<a class="button-labs" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel) + '</a>';
 				}
 				output += '</div>';
