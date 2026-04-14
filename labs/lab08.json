@@ -8,7 +8,9 @@
       {
          "number": "Lab 02",
          "title": "Resume",
-         "description": "In Lab 2, I used <strong>HTML</strong> and <strong>CSS</strong> to create a resume. I also organized my local repository structures, and practiced <strong>committing, pushing, and deploying</strong> files from my local enviornment to the Azure web server using GitHub Desktop."
+         "description": "In Lab 2, I used <strong>HTML</strong> and <strong>CSS</strong> to create a resume. I also organized my local repository structures, and practiced <strong>committing, pushing, and deploying</strong> files from my local enviornment to the Azure web server using GitHub Desktop.",
+         "link": "../labs/lab02/chrysn-Nanami Chrysler-resume.html",
+         "linkLabel": "View Resume ↗"
       },
       {
          "number": "Lab 03",
