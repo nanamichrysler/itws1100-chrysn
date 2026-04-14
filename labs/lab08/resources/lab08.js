@@ -17,12 +17,14 @@ $(document).ready(function() {
 				// expandable section — this div is required for toggleCard to work
 				output += '<div class="card-details">';
 				output += '<p>' + (item.description || '') + '</p>';
+				output += '<div class="button-labs-container">';
 				if (item.link) {
-					output += '<a class="button-labs" href="' + item.link + '" target="_blank">' + (item.linkLabel || 'Visit Lab ↗') + '</a>';
+				output += '<a class="button-labs" href="' + item.link + '" target="_blank">' + (item.linkLabel || 'Visit Lab ↗') + '</a>';
 				}
 				if (item.secondLink) {
-					output += '<a class="button-labs" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel || 'View on GitHub ↗') + '</a>';
+				output += '<a class="button-labs" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel || 'View Atom Feed ↗') + '</a>';
 				}
+				output += '</div>';
 				output += '</div>';
 				
 				output += '<div style="height: 28px;"></div>';
