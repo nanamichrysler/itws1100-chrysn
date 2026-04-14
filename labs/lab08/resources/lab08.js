@@ -19,10 +19,10 @@ $(document).ready(function() {
 				output += '<p>' + (item.description || '') + '</p>';
 				output += '<div class="button-labs-container">';
 				if (item.link) {
-				output += '<a class="button-labs" href="' + item.link + '" target="_blank">' + (item.linkLabel || 'Visit Lab ↗') + '</a>';
+					output += '<a class="button-labs" href="' + item.link + '" target="_blank">' + (item.linkLabel) + '</a>';
 				}
 				if (item.secondLink) {
-				output += '<a class="button-labs" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel || 'View Atom Feed ↗') + '</a>';
+					output += '<a class="button-labs" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel) + '</a>';
 				}
 				output += '</div>';
 				output += '</div>';
