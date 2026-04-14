@@ -22,7 +22,7 @@
          "link": "../labs/lab04/rss.xml",
          "linkLabel": "View RSS Feed",
          "secondLink": "../labs/lab04/atom.xml",
-         "secondLinkLabel": "View Atom Feed" 
+         "secondLabel": "View Atom Feed" 
       },
       {
          "number": "Lab 05",
