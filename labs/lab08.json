@@ -28,7 +28,8 @@
          "number": "Lab 05",
          "title": "Contact Info Form",
          "description": "In Lab 5, I built an interactive HTML form using <strong>JavaScript</strong>. I implemented input validation, dynamic text behavior, and user feedback alerts to improve usability.",
-         "link": "../labs/lab05/lab05.html"
+         "link": "../labs/lab05/lab05.html",
+         "linkLabel": "View HTML Form"
       },
       {
          "number": "Lab 06",
@@ -52,7 +53,7 @@
          "number": "Lab 09",
          "title": "PHP & MySQL",
          "description": "In Lab 9, I created and managed a <strong>MySQL database</strong> and connected it to <strong>PHP</strong> pages to display data from my tables. I built an actors and movies table and wrote PHP pages to interact with these tables. I practiced <strong>MySQL</strong>, <strong>PHP</strong>, and dynamic <strong>database-driven</strong> webpages.",
-         "link": "../labs/lab09/lab09.html"
+         "link": "../labs/lab09/index.php"
       },
       {
          "number": "Lab 10",
