@@ -18,10 +18,10 @@ $(document).ready(function() {
 				output += '<div class="card-details">';
 				output += '<p>' + (item.description || '') + '</p>';
 				if (item.link) {
-					output += '<a class="button" href="' + item.link + '" target="_blank">' + (item.linkLabel || 'Visit Lab ↗') + '</a>';
+					output += '<a class="button-labs" href="' + item.link + '" target="_blank">' + (item.linkLabel || 'Visit Lab ↗') + '</a>';
 				}
 				if (item.secondLink) {
-					output += '<a class="button" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel || 'View on GitHub ↗') + '</a>';
+					output += '<a class="button-labs" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel || 'View on GitHub ↗') + '</a>';
 				}
 				output += '</div>';
 				

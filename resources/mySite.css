@@ -367,6 +367,7 @@ h6 { /* "CONTACT" section label */
 .card-details {
   display: none;
   margin-top: 16px;
+  margin-bottom: 10px;
   padding-top: 16px;
   border-top: 1px solid #eee;
 }
@@ -902,4 +903,22 @@ pubDate {
 .img-linkedIn { /* icons in footer */
   width: 20px;
   height: auto;
+}
+
+
+/*LABS*/
+.button-labs {
+  padding: 8px 14px;   /* smaller */
+  font-size: 14px;     /* was probably ~16px */
+  border-radius: 8px;  /* slightly tighter */
+}
+
+.button-labs {
+  margin-right: 12px;
+}
+
+.button-labs-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
 }
