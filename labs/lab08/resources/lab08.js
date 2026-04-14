@@ -20,7 +20,7 @@ $(document).ready(function() {
 				if (item.link) {
 					output += '<a class="button" href="' + item.link + '" target="_blank">' + (item.linkLabel || 'Visit Lab ↗') + '</a>';
 				}
-				if (item.externalLink) {
+				if (item.secondLink) {
 					output += '<a class="button" href="' + item.secondLink + '" target="_blank">' + (item.secondLabel || 'View on GitHub ↗') + '</a>';
 				}
 				output += '</div>';

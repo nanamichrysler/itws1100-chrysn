@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         "title": "Contact Me",
-        "link": "iit/contactMe/contactme.html",
+        "link": "/iit/contactMe/contactme.html",
         "content": [
           {
             "text": "Email", 
