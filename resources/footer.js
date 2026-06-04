@@ -5,34 +5,34 @@ document.addEventListener('DOMContentLoaded', () => {
     "sections": [
       {
         "title": "Nanami Chrysler",
-        "link": "/iit/home.php",
+        "link": "/",
         "content": [
           "ITWS & Cognitive Science student focused on web development, UX, and consulting."
         ]
       },
       {
         "title": "Classes",
-        "link": "/iit/classes/classes.html",
+        "link": "/classes/classes.html",
         "content": []
       },
       {
         "title": "Projects",
-        "link": "/iit/projects/project.html",
+        "link": "/projects/project.html",
         "content": []
       },
       {
         "title": "Contact Me",
-        "link": "/iit/contactMe/contactme.html",
+        "link": "/contactMe/contactme.html",
         "content": [
           {
             "text": "Email", 
             "link": "mailto:nanami.jc73@gmail.com",
-            "icon": "/iit/resources/images/gmail icon.png"
+            "icon": "/resources/images/gmail icon.png"
           },
           {
             "text": "LinkedIn", 
             "link": "https://www.linkedin.com/in/nanami-chrysler/",
-            "icon": "/iit/resources/images/linkedin icon.webp",
+            "icon": "/resources/images/linkedin icon.webp",
             "target": "blank" 
           }
         ]
